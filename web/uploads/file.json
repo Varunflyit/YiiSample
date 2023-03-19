@@ -1,0 +1,351 @@
+{
+    "title": "Configure WooCommerce x Maropost",
+    "description": "Sync data between WooCommerce and Maropost",
+    "form": "wooCommerceMaropost",
+    "connectionPanel": {
+        "attributes": [
+            {
+                "key": "store_url",
+                "label": "Store URL",
+                "inputType": "url"
+            },
+            {
+                "key": "consumer_key",
+                "label": "Consumer Key",
+                "inputType": "text"
+            },
+            {
+                "key": "consumer_secret",
+                "label": "Consumer Secret",
+                "inputType": "text"
+            }
+        ],
+        "syncOptions": [
+            {
+                "key": "products",
+                "name": "Products",
+                "inputType": "boolean"
+            },
+            {
+                "key": "inventory",
+                "name": "Inventory",
+                "inputType": "boolean"
+            },
+            {
+                "key": "orders",
+                "name": "Orders",
+                "inputType": "boolean"
+            },
+            {
+                "key": "tracking",
+                "name": "Tracking",
+                "inputType": "boolean"
+            }
+        ]
+    },
+    "syncOptionPanels": [
+        {
+            "products": {
+                
+            }
+        },
+        {
+            "inventory": {
+                "title": "Inventory options",
+                "description": "",
+                "attributes": [
+                    {
+                        "key": "take_stock_from",
+                        "label": "Take stock from",
+                        "group": "Inventory options",
+                        "inputType": "select",
+                        "description": "Whether to use Available Sell Quantity or specific warehouse quantity from {sourceName}",
+                        "minLength": 1,
+                        "default": "available_sell_quantity",
+                        "valuesLists": [
+                            {
+                                "mappingOptions": {
+                                    "endpoint": "api/v1/source/warehouses",
+                                    "value": "id",
+                                    "label": "name"
+                                }
+                            },
+                            {
+                                "otherOptions": [
+                                    {
+                                        "otherType": "mappingOptions",
+                                        "value": "available_sell_quantity",
+                                        "label": "Available Sell Quantity"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "key": "set_stock_buffer",
+                        "label": "Set stock buffer",
+                        "group": "Inventory options",
+                        "inputType": "int",
+                        "description": "Whether to reduce stock by a certain amount to allow a buffer between inventory syncs",
+                        "minLength": 1,
+                        "default": "999",
+                        "valuesLists": []
+                    }
+                ]
+            }
+        },
+        {
+            "orders": {
+                "title": "Order options",
+                "description": "",
+                "attributes": [
+                    {
+                        "key": "customer_option",
+                        "title": "Customer option",
+                        "group": "Order options",
+                        "inputType": "select",
+                        "description": "The customer linking method when adding new orders to {sourceName}",
+                        "minLength": 1,
+                        "default": "link_to_existing",
+                        "valuesLists": [
+                            {
+                                "otherOptions": [
+                                    {
+                                        "otherType": "mappingOptions",
+                                        "value": "create_unique_customer",
+                                        "label": "New"
+                                    },
+                                    {
+                                        "otherType": "mappingOptions",
+                                        "value": "link_to_existing",
+                                        "label": "Link_to_existing"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "key": "existing_username",
+                        "title": "Existing customer username",
+                        "group": "Order options",
+                        "type": "select",
+                        "description": "The customer linking method when adding new orders to {sourceName}",
+                        "minLength": 1,
+                        "conditions": "customerOption = link_to_existing",
+                        "valuesLists": [
+                            {
+                                "mappingOptions": {
+                                    "endpoint": "api/v1/source/customers",
+                                    "value": "id",
+                                    "label": "name"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "key": "customer_group",
+                        "title": "Customer group for new customers",
+                        "group": "Order options",
+                        "type": "select",
+                        "description": "The customer assigned to new customers when adding order to {sourceName}",
+                        "minLength": 1,
+                        "conditions": "customerOption = create_unique_customer",
+                        "valuesLists": [
+                            {
+                                "mappingOptions": {
+                                    "endpoint": "api/v1/source/customersGroups",
+                                    "value": "id",
+                                    "label": "name"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "key": "order_status",
+                        "label": "Order Status",
+                        "group": "Order options",
+                        "inputType": "select",
+                        "description": "The order status when adding new orders to {sourceName}",
+                        "minLength": 1,
+                        "default": "Pick",
+                        "valuesLists": [
+                            {
+                                "otherOptions": [
+                                    {
+                                        "otherType": "mappingOptions",
+                                        "value": "New",
+                                        "label": "New"
+                                    },
+                                    {
+                                        "otherType": "mappingOptions",
+                                        "value": "Pick",
+                                        "label": "Pick"
+                                    },
+                                    {
+                                        "otherType": "mappingOptions",
+                                        "value": "Pack",
+                                        "label": "Pack"
+                                    },
+                                    {
+                                        "otherType": "mappingOptions",
+                                        "value": "Pending Dispatch",
+                                        "label": "Pending Dispatch"
+                                    },
+                                    {
+                                        "otherType": "mappingOptions",
+                                        "value": "On Hold",
+                                        "label": "On Hold"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "key": "ship_method_mapping",
+                        "label": "Shipping method mapping",
+                        "group": "Order options",
+                        "type": "mapping",
+                        "description": "The shipping method assigned to orders when added to {sourceName}",
+                        "minLength": 1,
+                        "conditions": "",
+                        "valuesLists": [
+                            {
+                                "toBeMapped": {
+                                    "endpoint": "api/v1/integration/shipMethods",
+                                    "value": "id",
+                                    "label": "name"
+                                }
+                            },
+                            {
+                                "mappingOptions": {
+                                    "endpoint": "api/v1/source/shipMethods",
+                                    "value": "id",
+                                    "label": "name"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "key": "ship_method_id",
+                        "label": "Default shipping method",
+                        "group": "Order options",
+                        "type": "select",
+                        "description": "The shipping method assigned to orders when added to {sourceName}",
+                        "minLength": 1,
+                        "conditions": "",
+                        "valuesLists": [
+                            {
+                                "mappingOptions": {
+                                    "endpoint": "api/v1/source/shippingMethods",
+                                    "value": "id",
+                                    "label": "name"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "key": "payment_method_mapping",
+                        "label": "Payment method",
+                        "group": "Order options",
+                        "type": "mapping",
+                        "description": "The payment method mapping assigned to orders when added to {sourceName}",
+                        "minLength": 1,
+                        "conditions": "",
+                        "valuesLists": [
+                            {
+                                "toBeMapped": {
+                                    "endpoint": "api/v1/integration/paymentMethods",
+                                    "value": "id",
+                                    "label": "name"
+                                }
+                            },
+                            {
+                                "mappingOptions": {
+                                    "endpoint": "api/v1/source/paymentMethods",
+                                    "value": "id",
+                                    "label": "name"
+                                }
+                            },
+                            {
+                                "otherOptions": [
+                                    {
+                                        "otherType": "mappingOptions",
+                                        "value": "do_not_mark_as_paid",
+                                        "label": "Do not mark as paid"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "key": "payment_method_id",
+                        "label": "Payment method",
+                        "group": "Order options",
+                        "type": "select",
+                        "description": "The payment method assigned to orders when added to {sourceName}",
+                        "minLength": 1,
+                        "conditions": "",
+                        "valuesLists": [
+                            {
+                                "toBeMapped": {
+                                    "endpoint": "api/v1/integration/paymentMethods",
+                                    "value": "id",
+                                    "label": "name"
+                                }
+                            },
+                            {
+                                "mappingOptions": {
+                                    "endpoint": "api/v1/source/paymentMethods",
+                                    "value": "id",
+                                    "label": "name"
+                                }
+                            },
+                            {
+                                "otherOptions": [
+                                    {
+                                        "otherType": "mappingOptions",
+                                        "value": "do_not_mark_as_paid",
+                                        "label": "Do not mark as paid"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "tracking": {
+                "title": "Tracking options",
+                "description": "",
+                "attributes": [
+                    {
+                        "key": "carrier_mapping",
+                        "label": "Carrier mapping",
+                        "group": "Tracking options",
+                        "type": "mapping",
+                        "description": "The carriers in {sourceName} mapped to carriers at {integrationName}",
+                        "minLength": 1,
+                        "conditions": "",
+                        "valuesLists": [
+                            {
+                                "toBeMapped": {
+                                    "endpoint": "api/v1/source/shippingCarriers",
+                                    "value": "id",
+                                    "label": "name"
+                                }
+                            },
+                            {
+                                "mappingOptions": {
+                                    "endpoint": "api/v1/integration/carriers",
+                                    "value": "id",
+                                    "label": "name"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,36 @@
+# Bitbucket Pipelines for Ecommify API v1
+pipelines:
+  branches:
+   develop:
+      - step:
+          name: Deploy to EC2 Dev
+          clone:
+            enabled: false
+          script:
+            - pipe: atlassian/ssh-run:0.4.1
+              variables:
+                SSH_USER: 'root'
+                SERVER: '52.65.237.239'
+                COMMAND: 'cd /var/www/dev/dev.api.ecommify.io/v1; bash deploy.sh'
+   staging:
+      - step:
+          name: Deploy to EC2 stag
+          clone:
+            enabled: false
+          script:
+            - pipe: atlassian/ssh-run:0.4.1
+              variables:
+                SSH_USER: 'root'
+                SERVER: '52.65.237.239'
+                COMMAND: 'cd /var/www/stage/pre-prod.api.ecommify.io/v1; bash deploy.sh'
+   main:
+      - step:
+          name: Deploy to EC2 master
+          clone:
+            enabled: false
+          script:
+            - pipe: atlassian/ssh-run:0.4.1
+              variables:
+                SSH_USER: 'root'
+                SERVER: '13.55.105.62'
+                COMMAND: 'cd /var/www/live/api.ecommify.io/v1; bash deploy.sh'

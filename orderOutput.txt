@@ -1,0 +1,4635 @@
+Array
+(
+    [0] => Array
+        (
+            [id] => 1124268
+            [parent_id] => 0
+            [status] => await-tracking
+            [currency] => AUD
+            [version] => 6.4.1
+            [prices_include_tax] => 1
+            [date_created] => 2022-09-02T19:23:39
+            [date_modified] => 2022-09-02T19:25:10
+            [discount_total] => 0.00
+            [discount_tax] => 0.00
+            [shipping_total] => 0.00
+            [shipping_tax] => 0.00
+            [cart_tax] => 10.82
+            [total] => 119.00
+            [total_tax] => 10.82
+            [customer_id] => 145
+            [order_key] => wc_order_ru5HpMNlQK5jt
+            [billing] => Array
+                (
+                    [first_name] => Stephanie
+                    [last_name] => Bennett
+                    [company] => 
+                    [address_1] => 21 Gloucester Avenue
+                    [address_2] => 
+                    [city] => West Pymble
+                    [state] => NSW
+                    [postcode] => 2073
+                    [country] => AU
+                    [email] => stephanie.c.benjamin@gmail.com
+                    [phone] => 0425 307 228
+                )
+
+            [shipping] => Array
+                (
+                    [first_name] => Stephanie
+                    [last_name] => Bennett
+                    [company] => 
+                    [address_1] => 21 Gloucester Avenue
+                    [address_2] => 
+                    [city] => West Pymble
+                    [state] => NSW
+                    [postcode] => 2073
+                    [country] => AU
+                    [phone] => 0425 307 228
+                )
+
+            [payment_method] => stripe
+            [payment_method_title] => Secure Credit Card
+            [transaction_id] => ch_3LdW6CFpaINbucud0P6OGKIf
+            [customer_ip_address] => 118.208.237.141
+            [customer_user_agent] => Mozilla/5.0 (iPhone; CPU iPhone OS 15_6_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/19G82 [FBAN/FBIOS;FBDV/iPhone12,1;FBMD/iPhone;FBSN/iOS;FBSV/15.6.1;FBSS/2;FBID/phone;FBLC/en_GB;FBOP/5]
+            [created_via] => checkout
+            [customer_note] => Please leave on the front porch if no one is home
+            [date_completed] => 
+            [date_paid] => 2022-09-02T19:23:43
+            [cart_hash] => e1ad3925a00f63b70c12c38b3c28ce86
+            [number] => AU70943
+            [meta_data] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 10481474
+                            [key] => mailchimp_woocommerce_campaign_id
+                            [value] => 
+                        )
+
+                    [1] => Array
+                        (
+                            [id] => 10481475
+                            [key] => mailchimp_woocommerce_landing_site
+                            [value] => https://onesixeightlondon.com.au/checkout/
+                        )
+
+                    [2] => Array
+                        (
+                            [id] => 10481512
+                            [key] => _billing_method
+                            [value] => Array
+                                (
+                                    [0] => free_shipping:1
+                                )
+
+                        )
+
+                    [3] => Array
+                        (
+                            [id] => 10481513
+                            [key] => is_vat_exempt
+                            [value] => no
+                        )
+
+                    [4] => Array
+                        (
+                            [id] => 10481514
+                            [key] => _order_number
+                            [value] => AU70943
+                        )
+
+                    [5] => Array
+                        (
+                            [id] => 10481515
+                            [key] => _wc_twilio_sms_optin
+                            [value] => 1
+                        )
+
+                    [6] => Array
+                        (
+                            [id] => 10481516
+                            [key] => _stripe_customer_id
+                            [value] => cus_MMEZYUYSbYr6v8
+                        )
+
+                    [7] => Array
+                        (
+                            [id] => 10481517
+                            [key] => _stripe_source_id
+                            [value] => src_1LdW68FpaINbucudxTHisEQT
+                        )
+
+                    [8] => Array
+                        (
+                            [id] => 10481518
+                            [key] => _stripe_intent_id
+                            [value] => pi_3LdW6CFpaINbucud09ebSt2A
+                        )
+
+                    [9] => Array
+                        (
+                            [id] => 10481519
+                            [key] => _stripe_charge_captured
+                            [value] => yes
+                        )
+
+                    [10] => Array
+                        (
+                            [id] => 10481520
+                            [key] => _stripe_fee
+                            [value] => 2.38
+                        )
+
+                    [11] => Array
+                        (
+                            [id] => 10481521
+                            [key] => _stripe_net
+                            [value] => 116.62
+                        )
+
+                    [12] => Array
+                        (
+                            [id] => 10481522
+                            [key] => _stripe_currency
+                            [value] => AUD
+                        )
+
+                    [13] => Array
+                        (
+                            [id] => 10481530
+                            [key] => _new_order_email_sent
+                            [value] => true
+                        )
+
+                    [14] => Array
+                        (
+                            [id] => 10481531
+                            [key] => _wcpdf_invoice_settings
+                            [value] => Array
+                                (
+                                    [display_shipping_address] => 1
+                                    [use_latest_settings] => 1
+                                    [header_logo] => 1078670
+                                    [header_logo_height] => 
+                                    [shop_name] => Array
+                                        (
+                                            [default] => One Six Eight London
+                                        )
+
+                                    [shop_address] => Array
+                                        (
+                                            [default] => 78 Herald St
+Cheltenham VIC 3192
+
+ABN: 21 981 580 346
+
+info@onesixeightlondon.com.au
+                                        )
+
+                                    [footer] => Array
+                                        (
+                                            [default] => Thanks for your order. For issues with shipping, delivery or warranty, please reply to your original order confirmation email for quickest reosolution.
+                                        )
+
+                                    [extra_1] => Array
+                                        (
+                                            [default] => 
+                                        )
+
+                                    [extra_2] => Array
+                                        (
+                                            [default] => 
+                                        )
+
+                                    [extra_3] => Array
+                                        (
+                                            [default] => 
+                                        )
+
+                                )
+
+                        )
+
+                    [15] => Array
+                        (
+                            [id] => 10481532
+                            [key] => _wcpdf_invoice_date
+                            [value] => 1662110625
+                        )
+
+                    [16] => Array
+                        (
+                            [id] => 10481533
+                            [key] => _wcpdf_invoice_date_formatted
+                            [value] => 2022-09-02 19:23:45
+                        )
+
+                    [17] => Array
+                        (
+                            [id] => 10481534
+                            [key] => _wcpdf_invoice_number
+                            [value] => 1280
+                        )
+
+                    [18] => Array
+                        (
+                            [id] => 10481535
+                            [key] => _wcpdf_invoice_number_data
+                            [value] => Array
+                                (
+                                    [number] => 1280
+                                    [formatted_number] => 1280
+                                    [prefix] => 
+                                    [suffix] => 
+                                    [document_type] => invoice
+                                    [order_id] => 1124268
+                                    [padding] => 
+                                )
+
+                        )
+
+                    [19] => Array
+                        (
+                            [id] => 10481540
+                            [key] => _ga_tracked
+                            [value] => 1
+                        )
+
+                )
+
+            [line_items] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 2441
+                            [name] => TINA Mirror - Light wood, 80cm
+                            [product_id] => 892308
+                            [variation_id] => 892310
+                            [quantity] => 1
+                            [tax_class] => 
+                            [subtotal] => 108.18
+                            [subtotal_tax] => 10.82
+                            [total] => 108.18
+                            [total_tax] => 10.82
+                            [taxes] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [id] => 1
+                                            [total] => 10.818182
+                                            [subtotal] => 10.818182
+                                        )
+
+                                )
+
+                            [meta_data] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [id] => 21101
+                                            [key] => pa_neto_var_colour
+                                            [value] => light-wood
+                                            [display_key] => colour
+                                            [display_value] => Light wood
+                                        )
+
+                                    [1] => Array
+                                        (
+                                            [id] => 21102
+                                            [key] => pa_neto_var_size
+                                            [value] => 80cm
+                                            [display_key] => size
+                                            [display_value] => 80cm
+                                        )
+
+                                    [2] => Array
+                                        (
+                                            [id] => 21115
+                                            [key] => _reduced_stock
+                                            [value] => 1
+                                            [display_key] => _reduced_stock
+                                            [display_value] => 1
+                                        )
+
+                                )
+
+                            [sku] => 61002-v
+                            [price] => 108.181818
+                            [parent_name] => TINA Mirror
+                        )
+
+                )
+
+            [tax_lines] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 2443
+                            [rate_code] => AU-GST-1
+                            [rate_id] => 1
+                            [label] => GST
+                            [compound] => 
+                            [tax_total] => 10.82
+                            [shipping_tax_total] => 0.00
+                            [rate_percent] => 10
+                            [meta_data] => Array
+                                (
+                                )
+
+                        )
+
+                )
+
+            [shipping_lines] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 2442
+                            [method_title] => Free express shipping
+                            [method_id] => free_shipping
+                            [instance_id] => 1
+                            [total] => 0.00
+                            [total_tax] => 0.00
+                            [taxes] => Array
+                                (
+                                )
+
+                            [meta_data] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [id] => 21108
+                                            [key] => Items
+                                            [value] => TINA Mirror - Light wood, 80cm &times; 1
+                                            [display_key] => Items
+                                            [display_value] => TINA Mirror - Light wood, 80cm &times; 1
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+            [fee_lines] => Array
+                (
+                )
+
+            [coupon_lines] => Array
+                (
+                )
+
+            [refunds] => Array
+                (
+                )
+
+            [payment_url] => https://onesixeightlondon.com.au/checkout/order-pay/1124268/?pay_for_order=true&key=wc_order_ru5HpMNlQK5jt
+            [date_created_gmt] => 2022-09-02T09:23:39
+            [date_modified_gmt] => 2022-09-02T09:25:10
+            [date_completed_gmt] => 
+            [date_paid_gmt] => 2022-09-02T09:23:43
+            [currency_symbol] => $
+            [_links] => Array
+                (
+                    [self] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [href] => https://onesixeightlondon.com.au/wp-json/wc/v3/orders/1124268
+                                )
+
+                        )
+
+                    [collection] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [href] => https://onesixeightlondon.com.au/wp-json/wc/v3/orders
+                                )
+
+                        )
+
+                    [customer] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [href] => https://onesixeightlondon.com.au/wp-json/wc/v3/customers/145
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [1] => Array
+        (
+            [id] => 1124266
+            [parent_id] => 0
+            [status] => await-tracking
+            [currency] => AUD
+            [version] => 6.4.1
+            [prices_include_tax] => 1
+            [date_created] => 2022-09-02T19:15:09
+            [date_modified] => 2022-09-02T19:20:11
+            [discount_total] => 0.00
+            [discount_tax] => 0.00
+            [shipping_total] => 0.00
+            [shipping_tax] => 0.00
+            [cart_tax] => 8.09
+            [total] => 89.00
+            [total_tax] => 8.09
+            [customer_id] => 0
+            [order_key] => wc_order_f58K8uFEwNWyZ
+            [billing] => Array
+                (
+                    [first_name] => Nardia
+                    [last_name] => Liersch
+                    [company] => 
+                    [address_1] => 153 Caledonian Hill Rd
+                    [address_2] => 
+                    [city] => Bolwarra
+                    [state] => VIC
+                    [postcode] => 3305
+                    [country] => AU
+                    [email] => nardialiersch@gmail.com
+                    [phone] => 0448101872
+                )
+
+            [shipping] => Array
+                (
+                    [first_name] => Nardia
+                    [last_name] => Liersch
+                    [company] => 
+                    [address_1] => 153 Caledonian Hill Rd
+                    [address_2] => 
+                    [city] => Bolwarra
+                    [state] => VIC
+                    [postcode] => 3305
+                    [country] => AU
+                    [phone] => 0448101872
+                )
+
+            [payment_method] => ppcp-gateway
+            [payment_method_title] => PayPal
+            [transaction_id] => 4YK7690935295630Y
+            [customer_ip_address] => 124.189.0.213
+            [customer_user_agent] => Mozilla/5.0 (Linux; Android 12; SM-G780F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Mobile Safari/537.36
+            [created_via] => checkout
+            [customer_note] => 
+            [date_completed] => 
+            [date_paid] => 2022-09-02T19:15:15
+            [cart_hash] => 4c6abb08c4d1640038750dd462627ef8
+            [number] => AU70942
+            [meta_data] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 10481408
+                            [key] => mailchimp_woocommerce_campaign_id
+                            [value] => 
+                        )
+
+                    [1] => Array
+                        (
+                            [id] => 10481409
+                            [key] => mailchimp_woocommerce_landing_site
+                            [value] => https://onesixeightlondon.com.au/checkout/
+                        )
+
+                    [2] => Array
+                        (
+                            [id] => 10481446
+                            [key] => _billing_method
+                            [value] => Array
+                                (
+                                    [0] => free_shipping:3
+                                )
+
+                        )
+
+                    [3] => Array
+                        (
+                            [id] => 10481447
+                            [key] => is_vat_exempt
+                            [value] => no
+                        )
+
+                    [4] => Array
+                        (
+                            [id] => 10481448
+                            [key] => _order_number
+                            [value] => AU70942
+                        )
+
+                    [5] => Array
+                        (
+                            [id] => 10481449
+                            [key] => _wc_twilio_sms_optin
+                            [value] => 1
+                        )
+
+                    [6] => Array
+                        (
+                            [id] => 10481450
+                            [key] => _ppcp_paypal_order_id
+                            [value] => 93624584C84901051
+                        )
+
+                    [7] => Array
+                        (
+                            [id] => 10481451
+                            [key] => _ppcp_paypal_intent
+                            [value] => CAPTURE
+                        )
+
+                    [8] => Array
+                        (
+                            [id] => 10481452
+                            [key] => _ppcp_paypal_payment_mode
+                            [value] => live
+                        )
+
+                    [9] => Array
+                        (
+                            [id] => 10481460
+                            [key] => _new_order_email_sent
+                            [value] => true
+                        )
+
+                    [10] => Array
+                        (
+                            [id] => 10481461
+                            [key] => _wcpdf_invoice_settings
+                            [value] => Array
+                                (
+                                    [display_shipping_address] => 1
+                                    [use_latest_settings] => 1
+                                    [header_logo] => 1078670
+                                    [header_logo_height] => 
+                                    [shop_name] => Array
+                                        (
+                                            [default] => One Six Eight London
+                                        )
+
+                                    [shop_address] => Array
+                                        (
+                                            [default] => 78 Herald St
+Cheltenham VIC 3192
+
+ABN: 21 981 580 346
+
+info@onesixeightlondon.com.au
+                                        )
+
+                                    [footer] => Array
+                                        (
+                                            [default] => Thanks for your order. For issues with shipping, delivery or warranty, please reply to your original order confirmation email for quickest reosolution.
+                                        )
+
+                                    [extra_1] => Array
+                                        (
+                                            [default] => 
+                                        )
+
+                                    [extra_2] => Array
+                                        (
+                                            [default] => 
+                                        )
+
+                                    [extra_3] => Array
+                                        (
+                                            [default] => 
+                                        )
+
+                                )
+
+                        )
+
+                    [11] => Array
+                        (
+                            [id] => 10481462
+                            [key] => _wcpdf_invoice_date
+                            [value] => 1662110118
+                        )
+
+                    [12] => Array
+                        (
+                            [id] => 10481463
+                            [key] => _wcpdf_invoice_date_formatted
+                            [value] => 2022-09-02 19:15:18
+                        )
+
+                    [13] => Array
+                        (
+                            [id] => 10481464
+                            [key] => _wcpdf_invoice_number
+                            [value] => 1279
+                        )
+
+                    [14] => Array
+                        (
+                            [id] => 10481465
+                            [key] => _wcpdf_invoice_number_data
+                            [value] => Array
+                                (
+                                    [number] => 1279
+                                    [formatted_number] => 1279
+                                    [prefix] => 
+                                    [suffix] => 
+                                    [document_type] => invoice
+                                    [order_id] => 1124266
+                                    [padding] => 
+                                )
+
+                        )
+
+                    [15] => Array
+                        (
+                            [id] => 10481466
+                            [key] => _ppcp_paypal_fees
+                            [value] => Array
+                                (
+                                    [gross_amount] => Array
+                                        (
+                                            [currency_code] => AUD
+                                            [value] => 89.00
+                                        )
+
+                                    [paypal_fee] => Array
+                                        (
+                                            [currency_code] => AUD
+                                            [value] => 2.61
+                                        )
+
+                                    [net_amount] => Array
+                                        (
+                                            [currency_code] => AUD
+                                            [value] => 86.39
+                                        )
+
+                                )
+
+                        )
+
+                    [16] => Array
+                        (
+                            [id] => 10481468
+                            [key] => _ga_tracked
+                            [value] => 1
+                        )
+
+                )
+
+            [line_items] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 2438
+                            [name] => OTTO Wall Clock - White
+                            [product_id] => 892489
+                            [variation_id] => 1091350
+                            [quantity] => 1
+                            [tax_class] => 
+                            [subtotal] => 80.91
+                            [subtotal_tax] => 8.09
+                            [total] => 80.91
+                            [total_tax] => 8.09
+                            [taxes] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [id] => 1
+                                            [total] => 8.090909
+                                            [subtotal] => 8.090909
+                                        )
+
+                                )
+
+                            [meta_data] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [id] => 21078
+                                            [key] => pa_neto_var_colour
+                                            [value] => white
+                                            [display_key] => colour
+                                            [display_value] => White
+                                        )
+
+                                    [1] => Array
+                                        (
+                                            [id] => 21091
+                                            [key] => _reduced_stock
+                                            [value] => 1
+                                            [display_key] => _reduced_stock
+                                            [display_value] => 1
+                                        )
+
+                                )
+
+                            [sku] => 23050-v
+                            [price] => 80.909091
+                            [parent_name] => OTTO Wall Clock
+                        )
+
+                )
+
+            [tax_lines] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 2440
+                            [rate_code] => AU-GST-1
+                            [rate_id] => 1
+                            [label] => GST
+                            [compound] => 
+                            [tax_total] => 8.09
+                            [shipping_tax_total] => 0.00
+                            [rate_percent] => 10
+                            [meta_data] => Array
+                                (
+                                )
+
+                        )
+
+                )
+
+            [shipping_lines] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 2439
+                            [method_title] => Free express shipping
+                            [method_id] => free_shipping
+                            [instance_id] => 3
+                            [total] => 0.00
+                            [total_tax] => 0.00
+                            [taxes] => Array
+                                (
+                                )
+
+                            [meta_data] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [id] => 21084
+                                            [key] => Items
+                                            [value] => OTTO Wall Clock - White &times; 1
+                                            [display_key] => Items
+                                            [display_value] => OTTO Wall Clock - White &times; 1
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+            [fee_lines] => Array
+                (
+                )
+
+            [coupon_lines] => Array
+                (
+                )
+
+            [refunds] => Array
+                (
+                )
+
+            [payment_url] => https://onesixeightlondon.com.au/checkout/order-pay/1124266/?pay_for_order=true&key=wc_order_f58K8uFEwNWyZ
+            [date_created_gmt] => 2022-09-02T09:15:09
+            [date_modified_gmt] => 2022-09-02T09:20:11
+            [date_completed_gmt] => 
+            [date_paid_gmt] => 2022-09-02T09:15:15
+            [currency_symbol] => $
+            [_links] => Array
+                (
+                    [self] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [href] => https://onesixeightlondon.com.au/wp-json/wc/v3/orders/1124266
+                                )
+
+                        )
+
+                    [collection] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [href] => https://onesixeightlondon.com.au/wp-json/wc/v3/orders
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [2] => Array
+        (
+            [id] => 1124265
+            [parent_id] => 0
+            [status] => await-tracking
+            [currency] => AUD
+            [version] => 6.4.1
+            [prices_include_tax] => 1
+            [date_created] => 2022-09-02T17:38:28
+            [date_modified] => 2022-09-02T18:12:05
+            [discount_total] => 0.00
+            [discount_tax] => 0.00
+            [shipping_total] => 0.00
+            [shipping_tax] => 0.00
+            [cart_tax] => 4.27
+            [total] => 47.00
+            [total_tax] => 4.27
+            [customer_id] => 0
+            [order_key] => wc_order_a7Nc2pmPMMZZc
+            [billing] => Array
+                (
+                    [first_name] => Kay
+                    [last_name] => Burman
+                    [company] => 
+                    [address_1] => 16/47 Hastings Road
+                    [address_2] => 
+                    [city] => Bogangar
+                    [state] => NSW
+                    [postcode] => 2488
+                    [country] => AU
+                    [email] => keb1826@gmail.com
+                    [phone] => 0432322647
+                )
+
+            [shipping] => Array
+                (
+                    [first_name] => Kay
+                    [last_name] => Burman
+                    [company] => 
+                    [address_1] => 16/47 Hastings Road
+                    [address_2] => 
+                    [city] => Bogangar
+                    [state] => NSW
+                    [postcode] => 2488
+                    [country] => AU
+                    [phone] => 0432322647
+                )
+
+            [payment_method] => ppcp-gateway
+            [payment_method_title] => PayPal
+            [transaction_id] => 93J81409RC537340U
+            [customer_ip_address] => 101.114.78.215
+            [customer_user_agent] => Mozilla/5.0 (iPhone; CPU iPhone OS 15_6_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.1 Mobile/15E148 Safari/604.1
+            [created_via] => checkout
+            [customer_note] => 
+            [date_completed] => 
+            [date_paid] => 2022-09-02T17:38:34
+            [cart_hash] => 0c7be423866fe3016aa074f85ba0d542
+            [number] => AU70941
+            [meta_data] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 10481225
+                            [key] => mailchimp_woocommerce_campaign_id
+                            [value] => 
+                        )
+
+                    [1] => Array
+                        (
+                            [id] => 10481226
+                            [key] => mailchimp_woocommerce_landing_site
+                            [value] => https://onesixeightlondon.com.au/checkout/
+                        )
+
+                    [2] => Array
+                        (
+                            [id] => 10481263
+                            [key] => _billing_method
+                            [value] => Array
+                                (
+                                    [0] => free_shipping:1
+                                )
+
+                        )
+
+                    [3] => Array
+                        (
+                            [id] => 10481264
+                            [key] => is_vat_exempt
+                            [value] => no
+                        )
+
+                    [4] => Array
+                        (
+                            [id] => 10481265
+                            [key] => _order_number
+                            [value] => AU70941
+                        )
+
+                    [5] => Array
+                        (
+                            [id] => 10481266
+                            [key] => _wc_twilio_sms_optin
+                            [value] => 1
+                        )
+
+                    [6] => Array
+                        (
+                            [id] => 10481267
+                            [key] => mailchimp_woocommerce_is_subscribed
+                            [value] => 1
+                        )
+
+                    [7] => Array
+                        (
+                            [id] => 10481268
+                            [key] => _ppcp_paypal_order_id
+                            [value] => 09577461W36942339
+                        )
+
+                    [8] => Array
+                        (
+                            [id] => 10481269
+                            [key] => _ppcp_paypal_intent
+                            [value] => CAPTURE
+                        )
+
+                    [9] => Array
+                        (
+                            [id] => 10481270
+                            [key] => _ppcp_paypal_payment_mode
+                            [value] => live
+                        )
+
+                    [10] => Array
+                        (
+                            [id] => 10481278
+                            [key] => _new_order_email_sent
+                            [value] => true
+                        )
+
+                    [11] => Array
+                        (
+                            [id] => 10481279
+                            [key] => _wcpdf_invoice_settings
+                            [value] => Array
+                                (
+                                    [display_shipping_address] => 1
+                                    [use_latest_settings] => 1
+                                    [header_logo] => 1078670
+                                    [header_logo_height] => 
+                                    [shop_name] => Array
+                                        (
+                                            [default] => One Six Eight London
+                                        )
+
+                                    [shop_address] => Array
+                                        (
+                                            [default] => 78 Herald St
+Cheltenham VIC 3192
+
+ABN: 21 981 580 346
+
+info@onesixeightlondon.com.au
+                                        )
+
+                                    [footer] => Array
+                                        (
+                                            [default] => Thanks for your order. For issues with shipping, delivery or warranty, please reply to your original order confirmation email for quickest reosolution.
+                                        )
+
+                                    [extra_1] => Array
+                                        (
+                                            [default] => 
+                                        )
+
+                                    [extra_2] => Array
+                                        (
+                                            [default] => 
+                                        )
+
+                                    [extra_3] => Array
+                                        (
+                                            [default] => 
+                                        )
+
+                                )
+
+                        )
+
+                    [12] => Array
+                        (
+                            [id] => 10481280
+                            [key] => _wcpdf_invoice_date
+                            [value] => 1662104316
+                        )
+
+                    [13] => Array
+                        (
+                            [id] => 10481281
+                            [key] => _wcpdf_invoice_date_formatted
+                            [value] => 2022-09-02 17:38:36
+                        )
+
+                    [14] => Array
+                        (
+                            [id] => 10481282
+                            [key] => _wcpdf_invoice_number
+                            [value] => 1278
+                        )
+
+                    [15] => Array
+                        (
+                            [id] => 10481283
+                            [key] => _wcpdf_invoice_number_data
+                            [value] => Array
+                                (
+                                    [number] => 1278
+                                    [formatted_number] => 1278
+                                    [prefix] => 
+                                    [suffix] => 
+                                    [document_type] => invoice
+                                    [order_id] => 1124265
+                                    [padding] => 
+                                )
+
+                        )
+
+                    [16] => Array
+                        (
+                            [id] => 10481284
+                            [key] => _ppcp_paypal_fees
+                            [value] => Array
+                                (
+                                    [gross_amount] => Array
+                                        (
+                                            [currency_code] => AUD
+                                            [value] => 47.00
+                                        )
+
+                                    [paypal_fee] => Array
+                                        (
+                                            [currency_code] => AUD
+                                            [value] => 1.52
+                                        )
+
+                                    [net_amount] => Array
+                                        (
+                                            [currency_code] => AUD
+                                            [value] => 45.48
+                                        )
+
+                                )
+
+                        )
+
+                    [17] => Array
+                        (
+                            [id] => 10481287
+                            [key] => _ga_tracked
+                            [value] => 1
+                        )
+
+                )
+
+            [line_items] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 2435
+                            [name] => GEO Jewellery Box - Medium, Gold
+                            [product_id] => 892508
+                            [variation_id] => 1091365
+                            [quantity] => 1
+                            [tax_class] => 
+                            [subtotal] => 42.73
+                            [subtotal_tax] => 4.27
+                            [total] => 42.73
+                            [total_tax] => 4.27
+                            [taxes] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [id] => 1
+                                            [total] => 4.272727
+                                            [subtotal] => 4.272727
+                                        )
+
+                                )
+
+                            [meta_data] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [id] => 21045
+                                            [key] => pa_neto_var_size
+                                            [value] => medium
+                                            [display_key] => size
+                                            [display_value] => Medium
+                                        )
+
+                                    [1] => Array
+                                        (
+                                            [id] => 21046
+                                            [key] => pa_neto_var_colour
+                                            [value] => gold
+                                            [display_key] => colour
+                                            [display_value] => Gold
+                                        )
+
+                                    [2] => Array
+                                        (
+                                            [id] => 21047
+                                            [key] => Engrave (&#36;18)
+                                            [value] => Add Personalisation
+                                            [display_key] => Engrave (&#036;18)
+                                            [display_value] => Add Personalisation
+                                        )
+
+                                    [3] => Array
+                                        (
+                                            [id] => 21048
+                                            [key] => _ywapo_meta_data
+                                            [value] => Array
+                                                (
+                                                    [0] => Array
+                                                        (
+                                                            [name] => Engrave
+                                                            [value] => Add Personalisation
+                                                            [price] => 18
+                                                            [price_original] => 18
+                                                            [price_type] => fixed
+                                                            [type_id] => 1
+                                                            [original_value] => Array
+                                                                (
+                                                                    [0] => ywapo_value_1
+                                                                )
+
+                                                            [original_index] => 0
+                                                            [sold_individually] => 0
+                                                            [calculate_quantity_sum] => 0
+                                                            [add_on_type] => checkbox
+                                                        )
+
+                                                    [1] => Array
+                                                        (
+                                                            [name] => Engrave text
+                                                            [value] => Nadia
+                                                            [price] => 0
+                                                            [price_original] => 0
+                                                            [price_type] => fixed
+                                                            [type_id] => 2
+                                                            [original_value] => Array
+                                                                (
+                                                                    [0] => Nadia
+                                                                )
+
+                                                            [original_index] => 0
+                                                            [sold_individually] => 0
+                                                            [calculate_quantity_sum] => 0
+                                                            [add_on_type] => text
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [name] => Confirmation
+                                                            [value] => Confirmation
+                                                            [price] => 0
+                                                            [price_original] => 0
+                                                            [price_type] => fixed
+                                                            [type_id] => 3
+                                                            [original_value] => Array
+                                                                (
+                                                                    [0] => ywapo_value_3
+                                                                )
+
+                                                            [original_index] => 0
+                                                            [sold_individually] => 0
+                                                            [calculate_quantity_sum] => 0
+                                                            [add_on_type] => checkbox
+                                                        )
+
+                                                )
+
+                                            [display_key] => _ywapo_meta_data
+                                            [display_value] => Array
+                                                (
+                                                    [0] => Array
+                                                        (
+                                                            [name] => Engrave
+                                                            [value] => Add Personalisation
+                                                            [price] => 18
+                                                            [price_original] => 18
+                                                            [price_type] => fixed
+                                                            [type_id] => 1
+                                                            [original_value] => Array
+                                                                (
+                                                                    [0] => ywapo_value_1
+                                                                )
+
+                                                            [original_index] => 0
+                                                            [sold_individually] => 0
+                                                            [calculate_quantity_sum] => 0
+                                                            [add_on_type] => checkbox
+                                                        )
+
+                                                    [1] => Array
+                                                        (
+                                                            [name] => Engrave text
+                                                            [value] => Nadia
+                                                            [price] => 0
+                                                            [price_original] => 0
+                                                            [price_type] => fixed
+                                                            [type_id] => 2
+                                                            [original_value] => Array
+                                                                (
+                                                                    [0] => Nadia
+                                                                )
+
+                                                            [original_index] => 0
+                                                            [sold_individually] => 0
+                                                            [calculate_quantity_sum] => 0
+                                                            [add_on_type] => text
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [name] => Confirmation
+                                                            [value] => Confirmation
+                                                            [price] => 0
+                                                            [price_original] => 0
+                                                            [price_type] => fixed
+                                                            [type_id] => 3
+                                                            [original_value] => Array
+                                                                (
+                                                                    [0] => ywapo_value_3
+                                                                )
+
+                                                            [original_index] => 0
+                                                            [sold_individually] => 0
+                                                            [calculate_quantity_sum] => 0
+                                                            [add_on_type] => checkbox
+                                                        )
+
+                                                )
+
+                                        )
+
+                                    [4] => Array
+                                        (
+                                            [id] => 21049
+                                            [key] => _ywapo_extra_info
+                                            [value] => Array
+                                                (
+                                                    [yith_wapo_sold_individually] => 
+                                                )
+
+                                            [display_key] => _ywapo_extra_info
+                                            [display_value] => Array
+                                                (
+                                                    [yith_wapo_sold_individually] => 
+                                                )
+
+                                        )
+
+                                    [5] => Array
+                                        (
+                                            [id] => 21050
+                                            [key] => Engrave text
+                                            [value] => Nadia
+                                            [display_key] => Engrave text
+                                            [display_value] => Nadia
+                                        )
+
+                                    [6] => Array
+                                        (
+                                            [id] => 21051
+                                            [key] => _ywapo_meta_data
+                                            [value] => Array
+                                                (
+                                                    [0] => Array
+                                                        (
+                                                            [name] => Engrave
+                                                            [value] => Add Personalisation
+                                                            [price] => 18
+                                                            [price_original] => 18
+                                                            [price_type] => fixed
+                                                            [type_id] => 1
+                                                            [original_value] => Array
+                                                                (
+                                                                    [0] => ywapo_value_1
+                                                                )
+
+                                                            [original_index] => 0
+                                                            [sold_individually] => 0
+                                                            [calculate_quantity_sum] => 0
+                                                            [add_on_type] => checkbox
+                                                        )
+
+                                                    [1] => Array
+                                                        (
+                                                            [name] => Engrave text
+                                                            [value] => Nadia
+                                                            [price] => 0
+                                                            [price_original] => 0
+                                                            [price_type] => fixed
+                                                            [type_id] => 2
+                                                            [original_value] => Array
+                                                                (
+                                                                    [0] => Nadia
+                                                                )
+
+                                                            [original_index] => 0
+                                                            [sold_individually] => 0
+                                                            [calculate_quantity_sum] => 0
+                                                            [add_on_type] => text
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [name] => Confirmation
+                                                            [value] => Confirmation
+                                                            [price] => 0
+                                                            [price_original] => 0
+                                                            [price_type] => fixed
+                                                            [type_id] => 3
+                                                            [original_value] => Array
+                                                                (
+                                                                    [0] => ywapo_value_3
+                                                                )
+
+                                                            [original_index] => 0
+                                                            [sold_individually] => 0
+                                                            [calculate_quantity_sum] => 0
+                                                            [add_on_type] => checkbox
+                                                        )
+
+                                                )
+
+                                            [display_key] => _ywapo_meta_data
+                                            [display_value] => Array
+                                                (
+                                                    [0] => Array
+                                                        (
+                                                            [name] => Engrave
+                                                            [value] => Add Personalisation
+                                                            [price] => 18
+                                                            [price_original] => 18
+                                                            [price_type] => fixed
+                                                            [type_id] => 1
+                                                            [original_value] => Array
+                                                                (
+                                                                    [0] => ywapo_value_1
+                                                                )
+
+                                                            [original_index] => 0
+                                                            [sold_individually] => 0
+                                                            [calculate_quantity_sum] => 0
+                                                            [add_on_type] => checkbox
+                                                        )
+
+                                                    [1] => Array
+                                                        (
+                                                            [name] => Engrave text
+                                                            [value] => Nadia
+                                                            [price] => 0
+                                                            [price_original] => 0
+                                                            [price_type] => fixed
+                                                            [type_id] => 2
+                                                            [original_value] => Array
+                                                                (
+                                                                    [0] => Nadia
+                                                                )
+
+                                                            [original_index] => 0
+                                                            [sold_individually] => 0
+                                                            [calculate_quantity_sum] => 0
+                                                            [add_on_type] => text
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [name] => Confirmation
+                                                            [value] => Confirmation
+                                                            [price] => 0
+                                                            [price_original] => 0
+                                                            [price_type] => fixed
+                                                            [type_id] => 3
+                                                            [original_value] => Array
+                                                                (
+                                                                    [0] => ywapo_value_3
+                                                                )
+
+                                                            [original_index] => 0
+                                                            [sold_individually] => 0
+                                                            [calculate_quantity_sum] => 0
+                                                            [add_on_type] => checkbox
+                                                        )
+
+                                                )
+
+                                        )
+
+                                    [7] => Array
+                                        (
+                                            [id] => 21052
+                                            [key] => _ywapo_extra_info
+                                            [value] => Array
+                                                (
+                                                    [yith_wapo_sold_individually] => 
+                                                )
+
+                                            [display_key] => _ywapo_extra_info
+                                            [display_value] => Array
+                                                (
+                                                    [yith_wapo_sold_individually] => 
+                                                )
+
+                                        )
+
+                                    [8] => Array
+                                        (
+                                            [id] => 21053
+                                            [key] => Confirmation
+                                            [value] => Confirmation
+                                            [display_key] => Confirmation
+                                            [display_value] => Confirmation
+                                        )
+
+                                    [9] => Array
+                                        (
+                                            [id] => 21054
+                                            [key] => _ywapo_meta_data
+                                            [value] => Array
+                                                (
+                                                    [0] => Array
+                                                        (
+                                                            [name] => Engrave
+                                                            [value] => Add Personalisation
+                                                            [price] => 18
+                                                            [price_original] => 18
+                                                            [price_type] => fixed
+                                                            [type_id] => 1
+                                                            [original_value] => Array
+                                                                (
+                                                                    [0] => ywapo_value_1
+                                                                )
+
+                                                            [original_index] => 0
+                                                            [sold_individually] => 0
+                                                            [calculate_quantity_sum] => 0
+                                                            [add_on_type] => checkbox
+                                                        )
+
+                                                    [1] => Array
+                                                        (
+                                                            [name] => Engrave text
+                                                            [value] => Nadia
+                                                            [price] => 0
+                                                            [price_original] => 0
+                                                            [price_type] => fixed
+                                                            [type_id] => 2
+                                                            [original_value] => Array
+                                                                (
+                                                                    [0] => Nadia
+                                                                )
+
+                                                            [original_index] => 0
+                                                            [sold_individually] => 0
+                                                            [calculate_quantity_sum] => 0
+                                                            [add_on_type] => text
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [name] => Confirmation
+                                                            [value] => Confirmation
+                                                            [price] => 0
+                                                            [price_original] => 0
+                                                            [price_type] => fixed
+                                                            [type_id] => 3
+                                                            [original_value] => Array
+                                                                (
+                                                                    [0] => ywapo_value_3
+                                                                )
+
+                                                            [original_index] => 0
+                                                            [sold_individually] => 0
+                                                            [calculate_quantity_sum] => 0
+                                                            [add_on_type] => checkbox
+                                                        )
+
+                                                )
+
+                                            [display_key] => _ywapo_meta_data
+                                            [display_value] => Array
+                                                (
+                                                    [0] => Array
+                                                        (
+                                                            [name] => Engrave
+                                                            [value] => Add Personalisation
+                                                            [price] => 18
+                                                            [price_original] => 18
+                                                            [price_type] => fixed
+                                                            [type_id] => 1
+                                                            [original_value] => Array
+                                                                (
+                                                                    [0] => ywapo_value_1
+                                                                )
+
+                                                            [original_index] => 0
+                                                            [sold_individually] => 0
+                                                            [calculate_quantity_sum] => 0
+                                                            [add_on_type] => checkbox
+                                                        )
+
+                                                    [1] => Array
+                                                        (
+                                                            [name] => Engrave text
+                                                            [value] => Nadia
+                                                            [price] => 0
+                                                            [price_original] => 0
+                                                            [price_type] => fixed
+                                                            [type_id] => 2
+                                                            [original_value] => Array
+                                                                (
+                                                                    [0] => Nadia
+                                                                )
+
+                                                            [original_index] => 0
+                                                            [sold_individually] => 0
+                                                            [calculate_quantity_sum] => 0
+                                                            [add_on_type] => text
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [name] => Confirmation
+                                                            [value] => Confirmation
+                                                            [price] => 0
+                                                            [price_original] => 0
+                                                            [price_type] => fixed
+                                                            [type_id] => 3
+                                                            [original_value] => Array
+                                                                (
+                                                                    [0] => ywapo_value_3
+                                                                )
+
+                                                            [original_index] => 0
+                                                            [sold_individually] => 0
+                                                            [calculate_quantity_sum] => 0
+                                                            [add_on_type] => checkbox
+                                                        )
+
+                                                )
+
+                                        )
+
+                                    [10] => Array
+                                        (
+                                            [id] => 21055
+                                            [key] => _ywapo_extra_info
+                                            [value] => Array
+                                                (
+                                                    [yith_wapo_sold_individually] => 
+                                                )
+
+                                            [display_key] => _ywapo_extra_info
+                                            [display_value] => Array
+                                                (
+                                                    [yith_wapo_sold_individually] => 
+                                                )
+
+                                        )
+
+                                    [11] => Array
+                                        (
+                                            [id] => 21068
+                                            [key] => _reduced_stock
+                                            [value] => 1
+                                            [display_key] => _reduced_stock
+                                            [display_value] => 1
+                                        )
+
+                                )
+
+                            [sku] => 53167-v
+                            [price] => 42.727273
+                            [parent_name] => GEO Jewellery Box
+                        )
+
+                )
+
+            [tax_lines] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 2437
+                            [rate_code] => AU-GST-1
+                            [rate_id] => 1
+                            [label] => GST
+                            [compound] => 
+                            [tax_total] => 4.27
+                            [shipping_tax_total] => 0.00
+                            [rate_percent] => 10
+                            [meta_data] => Array
+                                (
+                                )
+
+                        )
+
+                )
+
+            [shipping_lines] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 2436
+                            [method_title] => Free express shipping
+                            [method_id] => free_shipping
+                            [instance_id] => 1
+                            [total] => 0.00
+                            [total_tax] => 0.00
+                            [taxes] => Array
+                                (
+                                )
+
+                            [meta_data] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [id] => 21061
+                                            [key] => Items
+                                            [value] => GEO Jewellery Box - Medium, Gold &times; 1
+                                            [display_key] => Items
+                                            [display_value] => GEO Jewellery Box - Medium, Gold &times; 1
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+            [fee_lines] => Array
+                (
+                )
+
+            [coupon_lines] => Array
+                (
+                )
+
+            [refunds] => Array
+                (
+                )
+
+            [payment_url] => https://onesixeightlondon.com.au/checkout/order-pay/1124265/?pay_for_order=true&key=wc_order_a7Nc2pmPMMZZc
+            [date_created_gmt] => 2022-09-02T07:38:28
+            [date_modified_gmt] => 2022-09-02T08:12:05
+            [date_completed_gmt] => 
+            [date_paid_gmt] => 2022-09-02T07:38:34
+            [currency_symbol] => $
+            [_links] => Array
+                (
+                    [self] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [href] => https://onesixeightlondon.com.au/wp-json/wc/v3/orders/1124265
+                                )
+
+                        )
+
+                    [collection] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [href] => https://onesixeightlondon.com.au/wp-json/wc/v3/orders
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [3] => Array
+        (
+            [id] => 1124263
+            [parent_id] => 0
+            [status] => completed
+            [currency] => AUD
+            [version] => 6.4.1
+            [prices_include_tax] => 1
+            [date_created] => 2022-09-02T10:47:34
+            [date_modified] => 2022-09-02T12:14:11
+            [discount_total] => 0.00
+            [discount_tax] => 0.00
+            [shipping_total] => 0.00
+            [shipping_tax] => 0.00
+            [cart_tax] => 6.27
+            [total] => 69.00
+            [total_tax] => 6.27
+            [customer_id] => 0
+            [order_key] => wc_order_fwfVUEfAWYUV1
+            [billing] => Array
+                (
+                    [first_name] => Elouise
+                    [last_name] => Michael
+                    [company] => 
+                    [address_1] => 58 Rannoch Ave
+                    [address_2] => 
+                    [city] => Riverside
+                    [state] => TAS
+                    [postcode] => 7250
+                    [country] => AU
+                    [email] => ellzbellz@live.com.au
+                    [phone] => +61400662986
+                )
+
+            [shipping] => Array
+                (
+                    [first_name] => Elouise
+                    [last_name] => Michael
+                    [company] => 
+                    [address_1] => 58 Rannoch Ave
+                    [address_2] => 
+                    [city] => Riverside
+                    [state] => TAS
+                    [postcode] => 7250
+                    [country] => AU
+                    [phone] => +61400662986
+                )
+
+            [payment_method] => stripe
+            [payment_method_title] => Secure Credit Card
+            [transaction_id] => ch_3LdO2lFpaINbucud0jRSh5zo
+            [customer_ip_address] => 203.220.195.70
+            [customer_user_agent] => Mozilla/5.0 (Linux; Android 12) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.102 Mobile Safari/537.36
+            [created_via] => checkout
+            [customer_note] => 
+            [date_completed] => 2022-09-02T12:14:11
+            [date_paid] => 2022-09-02T10:47:38
+            [cart_hash] => d82ea2ad3f642bc6d1d97b65d4f7f601
+            [number] => AU70940
+            [meta_data] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 10480616
+                            [key] => mailchimp_woocommerce_campaign_id
+                            [value] => 
+                        )
+
+                    [1] => Array
+                        (
+                            [id] => 10480617
+                            [key] => mailchimp_woocommerce_landing_site
+                            [value] => https://onesixeightlondon.com.au/checkout/
+                        )
+
+                    [2] => Array
+                        (
+                            [id] => 10480654
+                            [key] => _billing_method
+                            [value] => Array
+                                (
+                                    [0] => free_shipping:1
+                                )
+
+                        )
+
+                    [3] => Array
+                        (
+                            [id] => 10480655
+                            [key] => is_vat_exempt
+                            [value] => no
+                        )
+
+                    [4] => Array
+                        (
+                            [id] => 10480656
+                            [key] => _order_number
+                            [value] => AU70940
+                        )
+
+                    [5] => Array
+                        (
+                            [id] => 10480657
+                            [key] => _wc_twilio_sms_optin
+                            [value] => 1
+                        )
+
+                    [6] => Array
+                        (
+                            [id] => 10480658
+                            [key] => mailchimp_woocommerce_is_subscribed
+                            [value] => 1
+                        )
+
+                    [7] => Array
+                        (
+                            [id] => 10480659
+                            [key] => _stripe_customer_id
+                            [value] => cus_MM6Fxi3lnpeXEQ
+                        )
+
+                    [8] => Array
+                        (
+                            [id] => 10480660
+                            [key] => _stripe_source_id
+                            [value] => src_1LdO2iFpaINbucud7W6xpBAH
+                        )
+
+                    [9] => Array
+                        (
+                            [id] => 10480662
+                            [key] => _stripe_intent_id
+                            [value] => pi_3LdO2lFpaINbucud0TBqYVeY
+                        )
+
+                    [10] => Array
+                        (
+                            [id] => 10480663
+                            [key] => _stripe_charge_captured
+                            [value] => yes
+                        )
+
+                    [11] => Array
+                        (
+                            [id] => 10480664
+                            [key] => _stripe_fee
+                            [value] => 1.51
+                        )
+
+                    [12] => Array
+                        (
+                            [id] => 10480665
+                            [key] => _stripe_net
+                            [value] => 67.49
+                        )
+
+                    [13] => Array
+                        (
+                            [id] => 10480666
+                            [key] => _stripe_currency
+                            [value] => AUD
+                        )
+
+                    [14] => Array
+                        (
+                            [id] => 10480674
+                            [key] => _new_order_email_sent
+                            [value] => true
+                        )
+
+                    [15] => Array
+                        (
+                            [id] => 10480675
+                            [key] => _wcpdf_invoice_settings
+                            [value] => Array
+                                (
+                                    [display_shipping_address] => 1
+                                    [use_latest_settings] => 1
+                                    [header_logo] => 1078670
+                                    [header_logo_height] => 
+                                    [shop_name] => Array
+                                        (
+                                            [default] => One Six Eight London
+                                        )
+
+                                    [shop_address] => Array
+                                        (
+                                            [default] => 78 Herald St
+Cheltenham VIC 3192
+
+ABN: 21 981 580 346
+
+info@onesixeightlondon.com.au
+                                        )
+
+                                    [footer] => Array
+                                        (
+                                            [default] => Thanks for your order. For issues with shipping, delivery or warranty, please reply to your original order confirmation email for quickest reosolution.
+                                        )
+
+                                    [extra_1] => Array
+                                        (
+                                            [default] => 
+                                        )
+
+                                    [extra_2] => Array
+                                        (
+                                            [default] => 
+                                        )
+
+                                    [extra_3] => Array
+                                        (
+                                            [default] => 
+                                        )
+
+                                )
+
+                        )
+
+                    [16] => Array
+                        (
+                            [id] => 10480676
+                            [key] => _wcpdf_invoice_date
+                            [value] => 1662079661
+                        )
+
+                    [17] => Array
+                        (
+                            [id] => 10480677
+                            [key] => _wcpdf_invoice_date_formatted
+                            [value] => 2022-09-02 10:47:41
+                        )
+
+                    [18] => Array
+                        (
+                            [id] => 10480678
+                            [key] => _wcpdf_invoice_number
+                            [value] => 1277
+                        )
+
+                    [19] => Array
+                        (
+                            [id] => 10480679
+                            [key] => _wcpdf_invoice_number_data
+                            [value] => Array
+                                (
+                                    [number] => 1277
+                                    [formatted_number] => 1277
+                                    [prefix] => 
+                                    [suffix] => 
+                                    [document_type] => invoice
+                                    [order_id] => 1124263
+                                    [padding] => 
+                                )
+
+                        )
+
+                    [20] => Array
+                        (
+                            [id] => 10480684
+                            [key] => _ga_tracked
+                            [value] => 1
+                        )
+
+                )
+
+            [line_items] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 2432
+                            [name] => MAYA Wall Clock - White, 40cm
+                            [product_id] => 892449
+                            [variation_id] => 1091322
+                            [quantity] => 1
+                            [tax_class] => 
+                            [subtotal] => 62.73
+                            [subtotal_tax] => 6.27
+                            [total] => 62.73
+                            [total_tax] => 6.27
+                            [taxes] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [id] => 1
+                                            [total] => 6.272727
+                                            [subtotal] => 6.272727
+                                        )
+
+                                )
+
+                            [meta_data] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [id] => 21021
+                                            [key] => pa_neto_var_colour
+                                            [value] => white
+                                            [display_key] => colour
+                                            [display_value] => White
+                                        )
+
+                                    [1] => Array
+                                        (
+                                            [id] => 21022
+                                            [key] => pa_neto_var_size
+                                            [value] => 40cm
+                                            [display_key] => size
+                                            [display_value] => 40cm
+                                        )
+
+                                    [2] => Array
+                                        (
+                                            [id] => 21035
+                                            [key] => _reduced_stock
+                                            [value] => 1
+                                            [display_key] => _reduced_stock
+                                            [display_value] => 1
+                                        )
+
+                                )
+
+                            [sku] => 23044-v
+                            [price] => 62.727273
+                            [parent_name] => MAYA Wall Clock
+                        )
+
+                )
+
+            [tax_lines] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 2434
+                            [rate_code] => AU-GST-1
+                            [rate_id] => 1
+                            [label] => GST
+                            [compound] => 
+                            [tax_total] => 6.27
+                            [shipping_tax_total] => 0.00
+                            [rate_percent] => 10
+                            [meta_data] => Array
+                                (
+                                )
+
+                        )
+
+                )
+
+            [shipping_lines] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 2433
+                            [method_title] => Free express shipping
+                            [method_id] => free_shipping
+                            [instance_id] => 1
+                            [total] => 0.00
+                            [total_tax] => 0.00
+                            [taxes] => Array
+                                (
+                                )
+
+                            [meta_data] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [id] => 21028
+                                            [key] => Items
+                                            [value] => MAYA Wall Clock - White, 40cm &times; 1
+                                            [display_key] => Items
+                                            [display_value] => MAYA Wall Clock - White, 40cm &times; 1
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+            [fee_lines] => Array
+                (
+                )
+
+            [coupon_lines] => Array
+                (
+                )
+
+            [refunds] => Array
+                (
+                )
+
+            [payment_url] => https://onesixeightlondon.com.au/checkout/order-pay/1124263/?pay_for_order=true&key=wc_order_fwfVUEfAWYUV1
+            [date_created_gmt] => 2022-09-02T00:47:34
+            [date_modified_gmt] => 2022-09-02T02:14:11
+            [date_completed_gmt] => 2022-09-02T02:14:11
+            [date_paid_gmt] => 2022-09-02T00:47:38
+            [currency_symbol] => $
+            [_links] => Array
+                (
+                    [self] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [href] => https://onesixeightlondon.com.au/wp-json/wc/v3/orders/1124263
+                                )
+
+                        )
+
+                    [collection] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [href] => https://onesixeightlondon.com.au/wp-json/wc/v3/orders
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [4] => Array
+        (
+            [id] => 1124260
+            [parent_id] => 0
+            [status] => completed
+            [currency] => AUD
+            [version] => 6.4.1
+            [prices_include_tax] => 1
+            [date_created] => 2022-09-01T22:09:45
+            [date_modified] => 2022-09-02T12:14:16
+            [discount_total] => 0.00
+            [discount_tax] => 0.00
+            [shipping_total] => 0.00
+            [shipping_tax] => 0.00
+            [cart_tax] => 5.36
+            [total] => 59.00
+            [total_tax] => 5.36
+            [customer_id] => 0
+            [order_key] => wc_order_13LMVkTGCbpCt
+            [billing] => Array
+                (
+                    [first_name] => Jason
+                    [last_name] => Ball
+                    [company] => 
+                    [address_1] => 23 Ibis Avenue
+                    [address_2] => 
+                    [city] => SALE
+                    [state] => VIC
+                    [postcode] => 3850
+                    [country] => AU
+                    [email] => jasondball@hotmail.com
+                    [phone] => 0411862839
+                )
+
+            [shipping] => Array
+                (
+                    [first_name] => Jason
+                    [last_name] => Ball
+                    [company] => 
+                    [address_1] => 23 Ibis Avenue
+                    [address_2] => 
+                    [city] => SALE
+                    [state] => VIC
+                    [postcode] => 3850
+                    [country] => AU
+                    [phone] => 0411862839
+                )
+
+            [payment_method] => stripe
+            [payment_method_title] => Secure Credit Card
+            [transaction_id] => ch_3LdCDOFpaINbucud0T2s32ev
+            [customer_ip_address] => 121.221.135.108
+            [customer_user_agent] => Mozilla/5.0 (Linux; Android 12; SM-G998B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Mobile Safari/537.36
+            [created_via] => checkout
+            [customer_note] => 
+            [date_completed] => 2022-09-02T12:14:16
+            [date_paid] => 2022-09-01T22:09:49
+            [cart_hash] => 535d357c0dba76ae634132a48b499f4c
+            [number] => AU70939
+            [meta_data] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 10479742
+                            [key] => mailchimp_woocommerce_campaign_id
+                            [value] => 
+                        )
+
+                    [1] => Array
+                        (
+                            [id] => 10479743
+                            [key] => mailchimp_woocommerce_landing_site
+                            [value] => https://onesixeightlondon.com.au/checkout/
+                        )
+
+                    [2] => Array
+                        (
+                            [id] => 10479780
+                            [key] => _billing_method
+                            [value] => Array
+                                (
+                                    [0] => free_shipping:3
+                                )
+
+                        )
+
+                    [3] => Array
+                        (
+                            [id] => 10479781
+                            [key] => is_vat_exempt
+                            [value] => no
+                        )
+
+                    [4] => Array
+                        (
+                            [id] => 10479782
+                            [key] => _order_number
+                            [value] => AU70939
+                        )
+
+                    [5] => Array
+                        (
+                            [id] => 10479783
+                            [key] => _wc_twilio_sms_optin
+                            [value] => 1
+                        )
+
+                    [6] => Array
+                        (
+                            [id] => 10479784
+                            [key] => _stripe_customer_id
+                            [value] => cus_MLu1DF28UoDnvb
+                        )
+
+                    [7] => Array
+                        (
+                            [id] => 10479785
+                            [key] => _stripe_source_id
+                            [value] => src_1LdCDLFpaINbucudoOehcChk
+                        )
+
+                    [8] => Array
+                        (
+                            [id] => 10479786
+                            [key] => _stripe_intent_id
+                            [value] => pi_3LdCDOFpaINbucud0FGInJyX
+                        )
+
+                    [9] => Array
+                        (
+                            [id] => 10479787
+                            [key] => _stripe_charge_captured
+                            [value] => yes
+                        )
+
+                    [10] => Array
+                        (
+                            [id] => 10479788
+                            [key] => _stripe_fee
+                            [value] => 1.33
+                        )
+
+                    [11] => Array
+                        (
+                            [id] => 10479789
+                            [key] => _stripe_net
+                            [value] => 57.67
+                        )
+
+                    [12] => Array
+                        (
+                            [id] => 10479790
+                            [key] => _stripe_currency
+                            [value] => AUD
+                        )
+
+                    [13] => Array
+                        (
+                            [id] => 10479798
+                            [key] => _new_order_email_sent
+                            [value] => true
+                        )
+
+                    [14] => Array
+                        (
+                            [id] => 10479799
+                            [key] => _wcpdf_invoice_settings
+                            [value] => Array
+                                (
+                                    [display_shipping_address] => 1
+                                    [use_latest_settings] => 1
+                                    [header_logo] => 1078670
+                                    [header_logo_height] => 
+                                    [shop_name] => Array
+                                        (
+                                            [default] => One Six Eight London
+                                        )
+
+                                    [shop_address] => Array
+                                        (
+                                            [default] => 78 Herald St
+Cheltenham VIC 3192
+
+ABN: 21 981 580 346
+
+info@onesixeightlondon.com.au
+                                        )
+
+                                    [footer] => Array
+                                        (
+                                            [default] => Thanks for your order. For issues with shipping, delivery or warranty, please reply to your original order confirmation email for quickest reosolution.
+                                        )
+
+                                    [extra_1] => Array
+                                        (
+                                            [default] => 
+                                        )
+
+                                    [extra_2] => Array
+                                        (
+                                            [default] => 
+                                        )
+
+                                    [extra_3] => Array
+                                        (
+                                            [default] => 
+                                        )
+
+                                )
+
+                        )
+
+                    [15] => Array
+                        (
+                            [id] => 10479800
+                            [key] => _wcpdf_invoice_date
+                            [value] => 1662034191
+                        )
+
+                    [16] => Array
+                        (
+                            [id] => 10479801
+                            [key] => _wcpdf_invoice_date_formatted
+                            [value] => 2022-09-01 22:09:51
+                        )
+
+                    [17] => Array
+                        (
+                            [id] => 10479802
+                            [key] => _wcpdf_invoice_number
+                            [value] => 1276
+                        )
+
+                    [18] => Array
+                        (
+                            [id] => 10479803
+                            [key] => _wcpdf_invoice_number_data
+                            [value] => Array
+                                (
+                                    [number] => 1276
+                                    [formatted_number] => 1276
+                                    [prefix] => 
+                                    [suffix] => 
+                                    [document_type] => invoice
+                                    [order_id] => 1124260
+                                    [padding] => 
+                                )
+
+                        )
+
+                    [19] => Array
+                        (
+                            [id] => 10479808
+                            [key] => _ga_tracked
+                            [value] => 1
+                        )
+
+                )
+
+            [line_items] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 2429
+                            [name] => MAYA Wall Clock - Charcoal grey, 30cm
+                            [product_id] => 892449
+                            [variation_id] => 1091316
+                            [quantity] => 1
+                            [tax_class] => 
+                            [subtotal] => 53.64
+                            [subtotal_tax] => 5.36
+                            [total] => 53.64
+                            [total_tax] => 5.36
+                            [taxes] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [id] => 1
+                                            [total] => 5.363636
+                                            [subtotal] => 5.363636
+                                        )
+
+                                )
+
+                            [meta_data] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [id] => 20997
+                                            [key] => pa_neto_var_colour
+                                            [value] => charcoal-grey
+                                            [display_key] => colour
+                                            [display_value] => Charcoal grey
+                                        )
+
+                                    [1] => Array
+                                        (
+                                            [id] => 20998
+                                            [key] => pa_neto_var_size
+                                            [value] => 30cm
+                                            [display_key] => size
+                                            [display_value] => 30cm
+                                        )
+
+                                    [2] => Array
+                                        (
+                                            [id] => 21011
+                                            [key] => _reduced_stock
+                                            [value] => 1
+                                            [display_key] => _reduced_stock
+                                            [display_value] => 1
+                                        )
+
+                                )
+
+                            [sku] => 23040-v
+                            [price] => 53.636364
+                            [parent_name] => MAYA Wall Clock
+                        )
+
+                )
+
+            [tax_lines] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 2431
+                            [rate_code] => AU-GST-1
+                            [rate_id] => 1
+                            [label] => GST
+                            [compound] => 
+                            [tax_total] => 5.36
+                            [shipping_tax_total] => 0.00
+                            [rate_percent] => 10
+                            [meta_data] => Array
+                                (
+                                )
+
+                        )
+
+                )
+
+            [shipping_lines] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 2430
+                            [method_title] => Free express shipping
+                            [method_id] => free_shipping
+                            [instance_id] => 3
+                            [total] => 0.00
+                            [total_tax] => 0.00
+                            [taxes] => Array
+                                (
+                                )
+
+                            [meta_data] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [id] => 21004
+                                            [key] => Items
+                                            [value] => MAYA Wall Clock - Charcoal grey, 30cm &times; 1
+                                            [display_key] => Items
+                                            [display_value] => MAYA Wall Clock - Charcoal grey, 30cm &times; 1
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+            [fee_lines] => Array
+                (
+                )
+
+            [coupon_lines] => Array
+                (
+                )
+
+            [refunds] => Array
+                (
+                )
+
+            [payment_url] => https://onesixeightlondon.com.au/checkout/order-pay/1124260/?pay_for_order=true&key=wc_order_13LMVkTGCbpCt
+            [date_created_gmt] => 2022-09-01T12:09:45
+            [date_modified_gmt] => 2022-09-02T02:14:16
+            [date_completed_gmt] => 2022-09-02T02:14:16
+            [date_paid_gmt] => 2022-09-01T12:09:49
+            [currency_symbol] => $
+            [_links] => Array
+                (
+                    [self] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [href] => https://onesixeightlondon.com.au/wp-json/wc/v3/orders/1124260
+                                )
+
+                        )
+
+                    [collection] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [href] => https://onesixeightlondon.com.au/wp-json/wc/v3/orders
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [5] => Array
+        (
+            [id] => 1124259
+            [parent_id] => 0
+            [status] => completed
+            [currency] => AUD
+            [version] => 6.4.1
+            [prices_include_tax] => 1
+            [date_created] => 2022-09-01T21:54:59
+            [date_modified] => 2022-09-02T12:14:21
+            [discount_total] => 0.00
+            [discount_tax] => 0.00
+            [shipping_total] => 0.00
+            [shipping_tax] => 0.00
+            [cart_tax] => 8.09
+            [total] => 89.00
+            [total_tax] => 8.09
+            [customer_id] => 0
+            [order_key] => wc_order_iZgoxkC4SGrb7
+            [billing] => Array
+                (
+                    [first_name] => Michelle
+                    [last_name] => Le
+                    [company] => 
+                    [address_1] => 1 Rose St
+                    [address_2] => 
+                    [city] => Braybrook
+                    [state] => VIC
+                    [postcode] => 3019
+                    [country] => AU
+                    [email] => mchllhr@gmail.com
+                    [phone] => 0432420869
+                )
+
+            [shipping] => Array
+                (
+                    [first_name] => Michelle
+                    [last_name] => Le
+                    [company] => 
+                    [address_1] => 1 Rose St
+                    [address_2] => 
+                    [city] => Braybrook
+                    [state] => VIC
+                    [postcode] => 3019
+                    [country] => AU
+                    [phone] => 0432420869
+                )
+
+            [payment_method] => stripe
+            [payment_method_title] => Secure Credit Card
+            [transaction_id] => ch_3LdBz6FpaINbucud1uMTZYs1
+            [customer_ip_address] => 157.211.221.92
+            [customer_user_agent] => Mozilla/5.0 (Linux; Android 12; Pixel 6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Mobile Safari/537.36
+            [created_via] => checkout
+            [customer_note] => 
+            [date_completed] => 2022-09-02T12:14:21
+            [date_paid] => 2022-09-01T21:55:04
+            [cart_hash] => 4382913c0fb7689d11fcce295e6c3622
+            [number] => AU70938
+            [meta_data] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 10479675
+                            [key] => mailchimp_woocommerce_campaign_id
+                            [value] => 
+                        )
+
+                    [1] => Array
+                        (
+                            [id] => 10479676
+                            [key] => mailchimp_woocommerce_landing_site
+                            [value] => https://onesixeightlondon.com.au/checkout/
+                        )
+
+                    [2] => Array
+                        (
+                            [id] => 10479713
+                            [key] => _billing_method
+                            [value] => Array
+                                (
+                                    [0] => free_shipping:3
+                                )
+
+                        )
+
+                    [3] => Array
+                        (
+                            [id] => 10479714
+                            [key] => is_vat_exempt
+                            [value] => no
+                        )
+
+                    [4] => Array
+                        (
+                            [id] => 10479715
+                            [key] => _order_number
+                            [value] => AU70938
+                        )
+
+                    [5] => Array
+                        (
+                            [id] => 10479716
+                            [key] => _wc_twilio_sms_optin
+                            [value] => 1
+                        )
+
+                    [6] => Array
+                        (
+                            [id] => 10479717
+                            [key] => _stripe_customer_id
+                            [value] => cus_MLtmi8dVj4bhvP
+                        )
+
+                    [7] => Array
+                        (
+                            [id] => 10479718
+                            [key] => _stripe_source_id
+                            [value] => src_1LdBz4FpaINbucudCTe7KoKO
+                        )
+
+                    [8] => Array
+                        (
+                            [id] => 10479719
+                            [key] => _stripe_intent_id
+                            [value] => pi_3LdBz6FpaINbucud1uWnPUGw
+                        )
+
+                    [9] => Array
+                        (
+                            [id] => 10479720
+                            [key] => _stripe_charge_captured
+                            [value] => yes
+                        )
+
+                    [10] => Array
+                        (
+                            [id] => 10479721
+                            [key] => _stripe_fee
+                            [value] => 1.86
+                        )
+
+                    [11] => Array
+                        (
+                            [id] => 10479722
+                            [key] => _stripe_net
+                            [value] => 87.14
+                        )
+
+                    [12] => Array
+                        (
+                            [id] => 10479723
+                            [key] => _stripe_currency
+                            [value] => AUD
+                        )
+
+                    [13] => Array
+                        (
+                            [id] => 10479731
+                            [key] => _new_order_email_sent
+                            [value] => true
+                        )
+
+                    [14] => Array
+                        (
+                            [id] => 10479732
+                            [key] => _wcpdf_invoice_settings
+                            [value] => Array
+                                (
+                                    [display_shipping_address] => 1
+                                    [use_latest_settings] => 1
+                                    [header_logo] => 1078670
+                                    [header_logo_height] => 
+                                    [shop_name] => Array
+                                        (
+                                            [default] => One Six Eight London
+                                        )
+
+                                    [shop_address] => Array
+                                        (
+                                            [default] => 78 Herald St
+Cheltenham VIC 3192
+
+ABN: 21 981 580 346
+
+info@onesixeightlondon.com.au
+                                        )
+
+                                    [footer] => Array
+                                        (
+                                            [default] => Thanks for your order. For issues with shipping, delivery or warranty, please reply to your original order confirmation email for quickest reosolution.
+                                        )
+
+                                    [extra_1] => Array
+                                        (
+                                            [default] => 
+                                        )
+
+                                    [extra_2] => Array
+                                        (
+                                            [default] => 
+                                        )
+
+                                    [extra_3] => Array
+                                        (
+                                            [default] => 
+                                        )
+
+                                )
+
+                        )
+
+                    [15] => Array
+                        (
+                            [id] => 10479733
+                            [key] => _wcpdf_invoice_date
+                            [value] => 1662033307
+                        )
+
+                    [16] => Array
+                        (
+                            [id] => 10479734
+                            [key] => _wcpdf_invoice_date_formatted
+                            [value] => 2022-09-01 21:55:07
+                        )
+
+                    [17] => Array
+                        (
+                            [id] => 10479735
+                            [key] => _wcpdf_invoice_number
+                            [value] => 1275
+                        )
+
+                    [18] => Array
+                        (
+                            [id] => 10479736
+                            [key] => _wcpdf_invoice_number_data
+                            [value] => Array
+                                (
+                                    [number] => 1275
+                                    [formatted_number] => 1275
+                                    [prefix] => 
+                                    [suffix] => 
+                                    [document_type] => invoice
+                                    [order_id] => 1124259
+                                    [padding] => 
+                                )
+
+                        )
+
+                    [19] => Array
+                        (
+                            [id] => 10479738
+                            [key] => _ga_tracked
+                            [value] => 1
+                        )
+
+                )
+
+            [line_items] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 2426
+                            [name] => ESME Wall Clock - Grey
+                            [product_id] => 892467
+                            [variation_id] => 892469
+                            [quantity] => 1
+                            [tax_class] => 
+                            [subtotal] => 80.91
+                            [subtotal_tax] => 8.09
+                            [total] => 80.91
+                            [total_tax] => 8.09
+                            [taxes] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [id] => 1
+                                            [total] => 8.090909
+                                            [subtotal] => 8.090909
+                                        )
+
+                                )
+
+                            [meta_data] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [id] => 20974
+                                            [key] => pa_neto_var_colour
+                                            [value] => grey
+                                            [display_key] => colour
+                                            [display_value] => Grey
+                                        )
+
+                                    [1] => Array
+                                        (
+                                            [id] => 20987
+                                            [key] => _reduced_stock
+                                            [value] => 1
+                                            [display_key] => _reduced_stock
+                                            [display_value] => 1
+                                        )
+
+                                )
+
+                            [sku] => 23045-v
+                            [price] => 80.909091
+                            [parent_name] => ESME Wall Clock
+                        )
+
+                )
+
+            [tax_lines] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 2428
+                            [rate_code] => AU-GST-1
+                            [rate_id] => 1
+                            [label] => GST
+                            [compound] => 
+                            [tax_total] => 8.09
+                            [shipping_tax_total] => 0.00
+                            [rate_percent] => 10
+                            [meta_data] => Array
+                                (
+                                )
+
+                        )
+
+                )
+
+            [shipping_lines] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 2427
+                            [method_title] => Free express shipping
+                            [method_id] => free_shipping
+                            [instance_id] => 3
+                            [total] => 0.00
+                            [total_tax] => 0.00
+                            [taxes] => Array
+                                (
+                                )
+
+                            [meta_data] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [id] => 20980
+                                            [key] => Items
+                                            [value] => ESME Wall Clock - Grey &times; 1
+                                            [display_key] => Items
+                                            [display_value] => ESME Wall Clock - Grey &times; 1
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+            [fee_lines] => Array
+                (
+                )
+
+            [coupon_lines] => Array
+                (
+                )
+
+            [refunds] => Array
+                (
+                )
+
+            [payment_url] => https://onesixeightlondon.com.au/checkout/order-pay/1124259/?pay_for_order=true&key=wc_order_iZgoxkC4SGrb7
+            [date_created_gmt] => 2022-09-01T11:54:59
+            [date_modified_gmt] => 2022-09-02T02:14:21
+            [date_completed_gmt] => 2022-09-02T02:14:21
+            [date_paid_gmt] => 2022-09-01T11:55:04
+            [currency_symbol] => $
+            [_links] => Array
+                (
+                    [self] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [href] => https://onesixeightlondon.com.au/wp-json/wc/v3/orders/1124259
+                                )
+
+                        )
+
+                    [collection] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [href] => https://onesixeightlondon.com.au/wp-json/wc/v3/orders
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [6] => Array
+        (
+            [id] => 1124258
+            [parent_id] => 0
+            [status] => completed
+            [currency] => AUD
+            [version] => 6.4.1
+            [prices_include_tax] => 1
+            [date_created] => 2022-09-01T17:35:41
+            [date_modified] => 2022-09-02T12:14:26
+            [discount_total] => 0.00
+            [discount_tax] => 0.00
+            [shipping_total] => 0.00
+            [shipping_tax] => 0.00
+            [cart_tax] => 7.18
+            [total] => 79.00
+            [total_tax] => 7.18
+            [customer_id] => 0
+            [order_key] => wc_order_qGNXIke6ZpapQ
+            [billing] => Array
+                (
+                    [first_name] => Leanne
+                    [last_name] => Monks
+                    [company] => 
+                    [address_1] => 49 Anderson Road
+                    [address_2] => 
+                    [city] => Peeramon
+                    [state] => QLD
+                    [postcode] => 4885
+                    [country] => AU
+                    [email] => leandy.3@bigpond.com
+                    [phone] => 0428951447
+                )
+
+            [shipping] => Array
+                (
+                    [first_name] => Leanne
+                    [last_name] => Monks
+                    [company] => 
+                    [address_1] => 49 Anderson Road
+                    [address_2] => 
+                    [city] => Peeramon
+                    [state] => QLD
+                    [postcode] => 4885
+                    [country] => AU
+                    [phone] => 0428951447
+                )
+
+            [payment_method] => ppcp-gateway
+            [payment_method_title] => PayPal
+            [transaction_id] => 86K18973MH7123412
+            [customer_ip_address] => 1.146.33.99
+            [customer_user_agent] => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Safari/605.1.15
+            [created_via] => checkout
+            [customer_note] => 
+            [date_completed] => 2022-09-02T12:14:26
+            [date_paid] => 2022-09-01T17:35:47
+            [cart_hash] => 307ece21b9300a92656f7970366a66ee
+            [number] => AU70937
+            [meta_data] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 10479325
+                            [key] => mailchimp_woocommerce_campaign_id
+                            [value] => 
+                        )
+
+                    [1] => Array
+                        (
+                            [id] => 10479326
+                            [key] => mailchimp_woocommerce_landing_site
+                            [value] => https://onesixeightlondon.com.au/checkout/
+                        )
+
+                    [2] => Array
+                        (
+                            [id] => 10479363
+                            [key] => _billing_method
+                            [value] => Array
+                                (
+                                    [0] => free_shipping:1
+                                )
+
+                        )
+
+                    [3] => Array
+                        (
+                            [id] => 10479364
+                            [key] => is_vat_exempt
+                            [value] => no
+                        )
+
+                    [4] => Array
+                        (
+                            [id] => 10479365
+                            [key] => _order_number
+                            [value] => AU70937
+                        )
+
+                    [5] => Array
+                        (
+                            [id] => 10479366
+                            [key] => _wc_twilio_sms_optin
+                            [value] => 1
+                        )
+
+                    [6] => Array
+                        (
+                            [id] => 10479367
+                            [key] => mailchimp_woocommerce_is_subscribed
+                            [value] => 1
+                        )
+
+                    [7] => Array
+                        (
+                            [id] => 10479368
+                            [key] => _ppcp_paypal_order_id
+                            [value] => 02065119NE545005F
+                        )
+
+                    [8] => Array
+                        (
+                            [id] => 10479369
+                            [key] => _ppcp_paypal_intent
+                            [value] => CAPTURE
+                        )
+
+                    [9] => Array
+                        (
+                            [id] => 10479370
+                            [key] => _ppcp_paypal_payment_mode
+                            [value] => live
+                        )
+
+                    [10] => Array
+                        (
+                            [id] => 10479378
+                            [key] => _new_order_email_sent
+                            [value] => true
+                        )
+
+                    [11] => Array
+                        (
+                            [id] => 10479379
+                            [key] => _wcpdf_invoice_settings
+                            [value] => Array
+                                (
+                                    [display_shipping_address] => 1
+                                    [use_latest_settings] => 1
+                                    [header_logo] => 1078670
+                                    [header_logo_height] => 
+                                    [shop_name] => Array
+                                        (
+                                            [default] => One Six Eight London
+                                        )
+
+                                    [shop_address] => Array
+                                        (
+                                            [default] => 78 Herald St
+Cheltenham VIC 3192
+
+ABN: 21 981 580 346
+
+info@onesixeightlondon.com.au
+                                        )
+
+                                    [footer] => Array
+                                        (
+                                            [default] => Thanks for your order. For issues with shipping, delivery or warranty, please reply to your original order confirmation email for quickest reosolution.
+                                        )
+
+                                    [extra_1] => Array
+                                        (
+                                            [default] => 
+                                        )
+
+                                    [extra_2] => Array
+                                        (
+                                            [default] => 
+                                        )
+
+                                    [extra_3] => Array
+                                        (
+                                            [default] => 
+                                        )
+
+                                )
+
+                        )
+
+                    [12] => Array
+                        (
+                            [id] => 10479380
+                            [key] => _wcpdf_invoice_date
+                            [value] => 1662017749
+                        )
+
+                    [13] => Array
+                        (
+                            [id] => 10479381
+                            [key] => _wcpdf_invoice_date_formatted
+                            [value] => 2022-09-01 17:35:49
+                        )
+
+                    [14] => Array
+                        (
+                            [id] => 10479382
+                            [key] => _wcpdf_invoice_number
+                            [value] => 1274
+                        )
+
+                    [15] => Array
+                        (
+                            [id] => 10479383
+                            [key] => _wcpdf_invoice_number_data
+                            [value] => Array
+                                (
+                                    [number] => 1274
+                                    [formatted_number] => 1274
+                                    [prefix] => 
+                                    [suffix] => 
+                                    [document_type] => invoice
+                                    [order_id] => 1124258
+                                    [padding] => 
+                                )
+
+                        )
+
+                    [16] => Array
+                        (
+                            [id] => 10479384
+                            [key] => _ppcp_paypal_fees
+                            [value] => Array
+                                (
+                                    [gross_amount] => Array
+                                        (
+                                            [currency_code] => AUD
+                                            [value] => 79.00
+                                        )
+
+                                    [paypal_fee] => Array
+                                        (
+                                            [currency_code] => AUD
+                                            [value] => 2.35
+                                        )
+
+                                    [net_amount] => Array
+                                        (
+                                            [currency_code] => AUD
+                                            [value] => 76.65
+                                        )
+
+                                )
+
+                        )
+
+                    [17] => Array
+                        (
+                            [id] => 10479386
+                            [key] => _ga_tracked
+                            [value] => 1
+                        )
+
+                )
+
+            [line_items] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 2423
+                            [name] => ASTRID Wall Clock - White
+                            [product_id] => 1123437
+                            [variation_id] => 1123441
+                            [quantity] => 1
+                            [tax_class] => 
+                            [subtotal] => 71.82
+                            [subtotal_tax] => 7.18
+                            [total] => 71.82
+                            [total_tax] => 7.18
+                            [taxes] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [id] => 1
+                                            [total] => 7.181818
+                                            [subtotal] => 7.181818
+                                        )
+
+                                )
+
+                            [meta_data] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [id] => 20951
+                                            [key] => pa_neto_var_colour
+                                            [value] => white
+                                            [display_key] => colour
+                                            [display_value] => White
+                                        )
+
+                                    [1] => Array
+                                        (
+                                            [id] => 20964
+                                            [key] => _reduced_stock
+                                            [value] => 1
+                                            [display_key] => _reduced_stock
+                                            [display_value] => 1
+                                        )
+
+                                )
+
+                            [sku] => 23106-v
+                            [price] => 71.818182
+                            [parent_name] => ASTRID Wall Clock
+                        )
+
+                )
+
+            [tax_lines] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 2425
+                            [rate_code] => AU-GST-1
+                            [rate_id] => 1
+                            [label] => GST
+                            [compound] => 
+                            [tax_total] => 7.18
+                            [shipping_tax_total] => 0.00
+                            [rate_percent] => 10
+                            [meta_data] => Array
+                                (
+                                )
+
+                        )
+
+                )
+
+            [shipping_lines] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 2424
+                            [method_title] => Free express shipping
+                            [method_id] => free_shipping
+                            [instance_id] => 1
+                            [total] => 0.00
+                            [total_tax] => 0.00
+                            [taxes] => Array
+                                (
+                                )
+
+                            [meta_data] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [id] => 20957
+                                            [key] => Items
+                                            [value] => ASTRID Wall Clock - White &times; 1
+                                            [display_key] => Items
+                                            [display_value] => ASTRID Wall Clock - White &times; 1
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+            [fee_lines] => Array
+                (
+                )
+
+            [coupon_lines] => Array
+                (
+                )
+
+            [refunds] => Array
+                (
+                )
+
+            [payment_url] => https://onesixeightlondon.com.au/checkout/order-pay/1124258/?pay_for_order=true&key=wc_order_qGNXIke6ZpapQ
+            [date_created_gmt] => 2022-09-01T07:35:41
+            [date_modified_gmt] => 2022-09-02T02:14:26
+            [date_completed_gmt] => 2022-09-02T02:14:26
+            [date_paid_gmt] => 2022-09-01T07:35:47
+            [currency_symbol] => $
+            [_links] => Array
+                (
+                    [self] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [href] => https://onesixeightlondon.com.au/wp-json/wc/v3/orders/1124258
+                                )
+
+                        )
+
+                    [collection] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [href] => https://onesixeightlondon.com.au/wp-json/wc/v3/orders
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [7] => Array
+        (
+            [id] => 1124257
+            [parent_id] => 0
+            [status] => completed
+            [currency] => AUD
+            [version] => 6.4.1
+            [prices_include_tax] => 1
+            [date_created] => 2022-09-01T16:09:45
+            [date_modified] => 2022-09-01T16:29:08
+            [discount_total] => 0.00
+            [discount_tax] => 0.00
+            [shipping_total] => 0.00
+            [shipping_tax] => 0.00
+            [cart_tax] => 7.18
+            [total] => 79.00
+            [total_tax] => 7.18
+            [customer_id] => 0
+            [order_key] => wc_order_8225tBJmfM5F2
+            [billing] => Array
+                (
+                    [first_name] => Jenna
+                    [last_name] => Khun
+                    [company] => 
+                    [address_1] => 78 Herald St
+                    [address_2] => 
+                    [city] => CHELTENHAM
+                    [state] => VIC
+                    [postcode] => 3192
+                    [country] => AU
+                    [email] => chendakhun@yahoo.com
+                    [phone] => 99999999
+                )
+
+            [shipping] => Array
+                (
+                    [first_name] => Jenna
+                    [last_name] => Khun
+                    [company] => 
+                    [address_1] => 78 Herald St
+                    [address_2] => 
+                    [city] => CHELTENHAM
+                    [state] => VIC
+                    [postcode] => 3192
+                    [country] => AU
+                    [phone] => 99999999
+                )
+
+            [payment_method] => stripe
+            [payment_method_title] => Secure Credit Card
+            [transaction_id] => ch_3Ld6b0FpaINbucud1kRCN7R0
+            [customer_ip_address] => 101.114.163.180
+            [customer_user_agent] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36
+            [created_via] => checkout
+            [customer_note] => 
+            [date_completed] => 2022-09-01T16:29:08
+            [date_paid] => 2022-09-01T16:09:49
+            [cart_hash] => 710ac0870a8e952ca4603f5109167c0f
+            [number] => AU70936
+            [meta_data] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 10479123
+                            [key] => mailchimp_woocommerce_campaign_id
+                            [value] => 
+                        )
+
+                    [1] => Array
+                        (
+                            [id] => 10479124
+                            [key] => mailchimp_woocommerce_landing_site
+                            [value] => https://onesixeightlondon.com.au/wp-json/wc-analytics/admin/notes?page=1&per_page=25&type=error%2Cupdate&status=unactioned&_locale=user
+                        )
+
+                    [2] => Array
+                        (
+                            [id] => 10479161
+                            [key] => _billing_method
+                            [value] => Array
+                                (
+                                    [0] => local_pickup:2
+                                )
+
+                        )
+
+                    [3] => Array
+                        (
+                            [id] => 10479162
+                            [key] => is_vat_exempt
+                            [value] => no
+                        )
+
+                    [4] => Array
+                        (
+                            [id] => 10479163
+                            [key] => _order_number
+                            [value] => AU70936
+                        )
+
+                    [5] => Array
+                        (
+                            [id] => 10479164
+                            [key] => _wc_twilio_sms_optin
+                            [value] => 1
+                        )
+
+                    [6] => Array
+                        (
+                            [id] => 10479165
+                            [key] => mailchimp_woocommerce_is_subscribed
+                            [value] => 1
+                        )
+
+                    [7] => Array
+                        (
+                            [id] => 10479166
+                            [key] => _stripe_customer_id
+                            [value] => cus_MLoDvutME5sJF4
+                        )
+
+                    [8] => Array
+                        (
+                            [id] => 10479167
+                            [key] => _stripe_source_id
+                            [value] => src_1Ld6ayFpaINbucudYgRYKNKg
+                        )
+
+                    [9] => Array
+                        (
+                            [id] => 10479168
+                            [key] => _stripe_intent_id
+                            [value] => pi_3Ld6b0FpaINbucud1Y0cm3Al
+                        )
+
+                    [10] => Array
+                        (
+                            [id] => 10479169
+                            [key] => _stripe_charge_captured
+                            [value] => yes
+                        )
+
+                    [11] => Array
+                        (
+                            [id] => 10479170
+                            [key] => _stripe_fee
+                            [value] => 1.68
+                        )
+
+                    [12] => Array
+                        (
+                            [id] => 10479171
+                            [key] => _stripe_net
+                            [value] => 77.32
+                        )
+
+                    [13] => Array
+                        (
+                            [id] => 10479172
+                            [key] => _stripe_currency
+                            [value] => AUD
+                        )
+
+                    [14] => Array
+                        (
+                            [id] => 10479180
+                            [key] => _new_order_email_sent
+                            [value] => true
+                        )
+
+                    [15] => Array
+                        (
+                            [id] => 10479181
+                            [key] => _wcpdf_invoice_settings
+                            [value] => Array
+                                (
+                                    [display_shipping_address] => 1
+                                    [use_latest_settings] => 1
+                                    [header_logo] => 1078670
+                                    [header_logo_height] => 
+                                    [shop_name] => Array
+                                        (
+                                            [default] => One Six Eight London
+                                        )
+
+                                    [shop_address] => Array
+                                        (
+                                            [default] => 78 Herald St
+Cheltenham VIC 3192
+
+ABN: 21 981 580 346
+
+info@onesixeightlondon.com.au
+                                        )
+
+                                    [footer] => Array
+                                        (
+                                            [default] => Thanks for your order. For issues with shipping, delivery or warranty, please reply to your original order confirmation email for quickest reosolution.
+                                        )
+
+                                    [extra_1] => Array
+                                        (
+                                            [default] => 
+                                        )
+
+                                    [extra_2] => Array
+                                        (
+                                            [default] => 
+                                        )
+
+                                    [extra_3] => Array
+                                        (
+                                            [default] => 
+                                        )
+
+                                )
+
+                        )
+
+                    [16] => Array
+                        (
+                            [id] => 10479182
+                            [key] => _wcpdf_invoice_date
+                            [value] => 1662012592
+                        )
+
+                    [17] => Array
+                        (
+                            [id] => 10479183
+                            [key] => _wcpdf_invoice_date_formatted
+                            [value] => 2022-09-01 16:09:52
+                        )
+
+                    [18] => Array
+                        (
+                            [id] => 10479184
+                            [key] => _wcpdf_invoice_number
+                            [value] => 1273
+                        )
+
+                    [19] => Array
+                        (
+                            [id] => 10479185
+                            [key] => _wcpdf_invoice_number_data
+                            [value] => Array
+                                (
+                                    [number] => 1273
+                                    [formatted_number] => 1273
+                                    [prefix] => 
+                                    [suffix] => 
+                                    [document_type] => invoice
+                                    [order_id] => 1124257
+                                    [padding] => 
+                                )
+
+                        )
+
+                    [20] => Array
+                        (
+                            [id] => 10479188
+                            [key] => _ga_tracked
+                            [value] => 1
+                        )
+
+                )
+
+            [line_items] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 2420
+                            [name] => OSCAR Wall Clock - 40cm
+                            [product_id] => 892395
+                            [variation_id] => 892397
+                            [quantity] => 1
+                            [tax_class] => 
+                            [subtotal] => 71.82
+                            [subtotal_tax] => 7.18
+                            [total] => 71.82
+                            [total_tax] => 7.18
+                            [taxes] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [id] => 1
+                                            [total] => 7.181818
+                                            [subtotal] => 7.181818
+                                        )
+
+                                )
+
+                            [meta_data] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [id] => 20928
+                                            [key] => pa_neto_var_size
+                                            [value] => 40cm
+                                            [display_key] => size
+                                            [display_value] => 40cm
+                                        )
+
+                                    [1] => Array
+                                        (
+                                            [id] => 20941
+                                            [key] => _reduced_stock
+                                            [value] => 1
+                                            [display_key] => _reduced_stock
+                                            [display_value] => 1
+                                        )
+
+                                )
+
+                            [sku] => 23022-v
+                            [price] => 71.818182
+                            [parent_name] => OSCAR Wall Clock
+                        )
+
+                )
+
+            [tax_lines] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 2422
+                            [rate_code] => AU-GST-1
+                            [rate_id] => 1
+                            [label] => GST
+                            [compound] => 
+                            [tax_total] => 7.18
+                            [shipping_tax_total] => 0.00
+                            [rate_percent] => 10
+                            [meta_data] => Array
+                                (
+                                )
+
+                        )
+
+                )
+
+            [shipping_lines] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 2421
+                            [method_title] => Click &amp; collect
+                            [method_id] => local_pickup
+                            [instance_id] => 2
+                            [total] => 0.00
+                            [total_tax] => 0.00
+                            [taxes] => Array
+                                (
+                                )
+
+                            [meta_data] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [id] => 20934
+                                            [key] => Items
+                                            [value] => OSCAR Wall Clock - 40cm &times; 1
+                                            [display_key] => Items
+                                            [display_value] => OSCAR Wall Clock - 40cm &times; 1
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+            [fee_lines] => Array
+                (
+                )
+
+            [coupon_lines] => Array
+                (
+                )
+
+            [refunds] => Array
+                (
+                )
+
+            [payment_url] => https://onesixeightlondon.com.au/checkout/order-pay/1124257/?pay_for_order=true&key=wc_order_8225tBJmfM5F2
+            [date_created_gmt] => 2022-09-01T06:09:45
+            [date_modified_gmt] => 2022-09-01T06:29:08
+            [date_completed_gmt] => 2022-09-01T06:29:08
+            [date_paid_gmt] => 2022-09-01T06:09:49
+            [currency_symbol] => $
+            [_links] => Array
+                (
+                    [self] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [href] => https://onesixeightlondon.com.au/wp-json/wc/v3/orders/1124257
+                                )
+
+                        )
+
+                    [collection] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [href] => https://onesixeightlondon.com.au/wp-json/wc/v3/orders
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [8] => Array
+        (
+            [id] => 1124256
+            [parent_id] => 0
+            [status] => completed
+            [currency] => AUD
+            [version] => 6.4.1
+            [prices_include_tax] => 1
+            [date_created] => 2022-09-01T14:38:15
+            [date_modified] => 2022-09-02T12:24:10
+            [discount_total] => 0.00
+            [discount_tax] => 0.00
+            [shipping_total] => 0.00
+            [shipping_tax] => 0.00
+            [cart_tax] => 9.91
+            [total] => 109.00
+            [total_tax] => 9.91
+            [customer_id] => 0
+            [order_key] => wc_order_O8eakIPNbhk88
+            [billing] => Array
+                (
+                    [first_name] => Sophie
+                    [last_name] => Hill
+                    [company] => 
+                    [address_1] => Karapiti 1096 Bundella
+                    [address_2] => 
+                    [city] => Quirindi
+                    [state] => NSW
+                    [postcode] => 2343
+                    [country] => AU
+                    [email] => sophiehill25@icloud.com
+                    [phone] => 0448462784
+                )
+
+            [shipping] => Array
+                (
+                    [first_name] => Sophie
+                    [last_name] => Hill
+                    [company] => 
+                    [address_1] => Karapiti 1096 Bundella
+                    [address_2] => 
+                    [city] => Quirindi
+                    [state] => NSW
+                    [postcode] => 2343
+                    [country] => AU
+                    [phone] => 0448462784
+                )
+
+            [payment_method] => stripe
+            [payment_method_title] => Secure Credit Card
+            [transaction_id] => ch_3Ld5ASFpaINbucud1gacrYuY
+            [customer_ip_address] => 1.145.73.181
+            [customer_user_agent] => Mozilla/5.0 (iPhone; CPU iPhone OS 15_6_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.1 Mobile/15E148 Safari/604.1
+            [created_via] => checkout
+            [customer_note] => 
+            [date_completed] => 2022-09-02T12:24:10
+            [date_paid] => 2022-09-01T14:38:19
+            [cart_hash] => 8b9c547c7a8bd15da48c51bdb59f9bec
+            [number] => AU70935
+            [meta_data] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 10478922
+                            [key] => mailchimp_woocommerce_campaign_id
+                            [value] => 
+                        )
+
+                    [1] => Array
+                        (
+                            [id] => 10478923
+                            [key] => mailchimp_woocommerce_landing_site
+                            [value] => https://onesixeightlondon.com.au/checkout/
+                        )
+
+                    [2] => Array
+                        (
+                            [id] => 10478960
+                            [key] => _billing_method
+                            [value] => Array
+                                (
+                                    [0] => free_shipping:1
+                                )
+
+                        )
+
+                    [3] => Array
+                        (
+                            [id] => 10478961
+                            [key] => is_vat_exempt
+                            [value] => no
+                        )
+
+                    [4] => Array
+                        (
+                            [id] => 10478962
+                            [key] => _order_number
+                            [value] => AU70935
+                        )
+
+                    [5] => Array
+                        (
+                            [id] => 10478963
+                            [key] => _wc_twilio_sms_optin
+                            [value] => 1
+                        )
+
+                    [6] => Array
+                        (
+                            [id] => 10478964
+                            [key] => mailchimp_woocommerce_is_subscribed
+                            [value] => 1
+                        )
+
+                    [7] => Array
+                        (
+                            [id] => 10478965
+                            [key] => _stripe_customer_id
+                            [value] => cus_MLmjMqW4YgPItl
+                        )
+
+                    [8] => Array
+                        (
+                            [id] => 10478966
+                            [key] => _stripe_source_id
+                            [value] => src_1Ld5AQFpaINbucudEGg6AGFo
+                        )
+
+                    [9] => Array
+                        (
+                            [id] => 10478967
+                            [key] => _stripe_intent_id
+                            [value] => pi_3Ld5ASFpaINbucud1gA9diZK
+                        )
+
+                    [10] => Array
+                        (
+                            [id] => 10478968
+                            [key] => _stripe_charge_captured
+                            [value] => yes
+                        )
+
+                    [11] => Array
+                        (
+                            [id] => 10478969
+                            [key] => _stripe_fee
+                            [value] => 2.21
+                        )
+
+                    [12] => Array
+                        (
+                            [id] => 10478970
+                            [key] => _stripe_net
+                            [value] => 106.79
+                        )
+
+                    [13] => Array
+                        (
+                            [id] => 10478971
+                            [key] => _stripe_currency
+                            [value] => AUD
+                        )
+
+                    [14] => Array
+                        (
+                            [id] => 10478979
+                            [key] => _new_order_email_sent
+                            [value] => true
+                        )
+
+                    [15] => Array
+                        (
+                            [id] => 10478980
+                            [key] => _wcpdf_invoice_settings
+                            [value] => Array
+                                (
+                                    [display_shipping_address] => 1
+                                    [use_latest_settings] => 1
+                                    [header_logo] => 1078670
+                                    [header_logo_height] => 
+                                    [shop_name] => Array
+                                        (
+                                            [default] => One Six Eight London
+                                        )
+
+                                    [shop_address] => Array
+                                        (
+                                            [default] => 78 Herald St
+Cheltenham VIC 3192
+
+ABN: 21 981 580 346
+
+info@onesixeightlondon.com.au
+                                        )
+
+                                    [footer] => Array
+                                        (
+                                            [default] => Thanks for your order. For issues with shipping, delivery or warranty, please reply to your original order confirmation email for quickest reosolution.
+                                        )
+
+                                    [extra_1] => Array
+                                        (
+                                            [default] => 
+                                        )
+
+                                    [extra_2] => Array
+                                        (
+                                            [default] => 
+                                        )
+
+                                    [extra_3] => Array
+                                        (
+                                            [default] => 
+                                        )
+
+                                )
+
+                        )
+
+                    [16] => Array
+                        (
+                            [id] => 10478981
+                            [key] => _wcpdf_invoice_date
+                            [value] => 1662007102
+                        )
+
+                    [17] => Array
+                        (
+                            [id] => 10478982
+                            [key] => _wcpdf_invoice_date_formatted
+                            [value] => 2022-09-01 14:38:22
+                        )
+
+                    [18] => Array
+                        (
+                            [id] => 10478983
+                            [key] => _wcpdf_invoice_number
+                            [value] => 1272
+                        )
+
+                    [19] => Array
+                        (
+                            [id] => 10478984
+                            [key] => _wcpdf_invoice_number_data
+                            [value] => Array
+                                (
+                                    [number] => 1272
+                                    [formatted_number] => 1272
+                                    [prefix] => 
+                                    [suffix] => 
+                                    [document_type] => invoice
+                                    [order_id] => 1124256
+                                    [padding] => 
+                                )
+
+                        )
+
+                    [20] => Array
+                        (
+                            [id] => 10478990
+                            [key] => _ga_tracked
+                            [value] => 1
+                        )
+
+                )
+
+            [line_items] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 2417
+                            [name] => GABRIELLA Jewellery Box - Large, Blush
+                            [product_id] => 892076
+                            [variation_id] => 892082
+                            [quantity] => 1
+                            [tax_class] => 
+                            [subtotal] => 99.09
+                            [subtotal_tax] => 9.91
+                            [total] => 99.09
+                            [total_tax] => 9.91
+                            [taxes] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [id] => 1
+                                            [total] => 9.909091
+                                            [subtotal] => 9.909091
+                                        )
+
+                                )
+
+                            [meta_data] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [id] => 20904
+                                            [key] => pa_neto_var_size
+                                            [value] => large
+                                            [display_key] => size
+                                            [display_value] => Large
+                                        )
+
+                                    [1] => Array
+                                        (
+                                            [id] => 20905
+                                            [key] => pa_neto_var_colour
+                                            [value] => blush
+                                            [display_key] => colour
+                                            [display_value] => Blush
+                                        )
+
+                                    [2] => Array
+                                        (
+                                            [id] => 20918
+                                            [key] => _reduced_stock
+                                            [value] => 1
+                                            [display_key] => _reduced_stock
+                                            [display_value] => 1
+                                        )
+
+                                )
+
+                            [sku] => 53027-v
+                            [price] => 99.090909
+                            [parent_name] => GABRIELLA Jewellery Box
+                        )
+
+                )
+
+            [tax_lines] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 2419
+                            [rate_code] => AU-GST-1
+                            [rate_id] => 1
+                            [label] => GST
+                            [compound] => 
+                            [tax_total] => 9.91
+                            [shipping_tax_total] => 0.00
+                            [rate_percent] => 10
+                            [meta_data] => Array
+                                (
+                                )
+
+                        )
+
+                )
+
+            [shipping_lines] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 2418
+                            [method_title] => Free express shipping
+                            [method_id] => free_shipping
+                            [instance_id] => 1
+                            [total] => 0.00
+                            [total_tax] => 0.00
+                            [taxes] => Array
+                                (
+                                )
+
+                            [meta_data] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [id] => 20911
+                                            [key] => Items
+                                            [value] => GABRIELLA Jewellery Box - Large, Blush &times; 1
+                                            [display_key] => Items
+                                            [display_value] => GABRIELLA Jewellery Box - Large, Blush &times; 1
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+            [fee_lines] => Array
+                (
+                )
+
+            [coupon_lines] => Array
+                (
+                )
+
+            [refunds] => Array
+                (
+                )
+
+            [payment_url] => https://onesixeightlondon.com.au/checkout/order-pay/1124256/?pay_for_order=true&key=wc_order_O8eakIPNbhk88
+            [date_created_gmt] => 2022-09-01T04:38:15
+            [date_modified_gmt] => 2022-09-02T02:24:10
+            [date_completed_gmt] => 2022-09-02T02:24:10
+            [date_paid_gmt] => 2022-09-01T04:38:19
+            [currency_symbol] => $
+            [_links] => Array
+                (
+                    [self] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [href] => https://onesixeightlondon.com.au/wp-json/wc/v3/orders/1124256
+                                )
+
+                        )
+
+                    [collection] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [href] => https://onesixeightlondon.com.au/wp-json/wc/v3/orders
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [9] => Array
+        (
+            [id] => 1124255
+            [parent_id] => 0
+            [status] => completed
+            [currency] => AUD
+            [version] => 6.4.1
+            [prices_include_tax] => 1
+            [date_created] => 2022-09-01T14:18:50
+            [date_modified] => 2022-09-02T12:34:07
+            [discount_total] => 0.00
+            [discount_tax] => 0.00
+            [shipping_total] => 0.00
+            [shipping_tax] => 0.00
+            [cart_tax] => 14.45
+            [total] => 159.00
+            [total_tax] => 14.45
+            [customer_id] => 144
+            [order_key] => wc_order_oqwwMA7ruOqFq
+            [billing] => Array
+                (
+                    [first_name] => Mayank
+                    [last_name] => Mayank
+                    [company] => 
+                    [address_1] => 19 Brahman Walk
+                    [address_2] => 
+                    [city] => Doreen
+                    [state] => VIC
+                    [postcode] => 3754
+                    [country] => AU
+                    [email] => mayank.kaushish@gmail.com
+                    [phone] => 0451041504
+                )
+
+            [shipping] => Array
+                (
+                    [first_name] => Mayank
+                    [last_name] => Mayank
+                    [company] => 
+                    [address_1] => 19 Brahman Walk
+                    [address_2] => 
+                    [city] => Doreen
+                    [state] => VIC
+                    [postcode] => 3754
+                    [country] => AU
+                    [phone] => 0451041504
+                )
+
+            [payment_method] => stripe
+            [payment_method_title] => Secure Credit Card
+            [transaction_id] => ch_3Ld4rfFpaINbucud0wSBZuZl
+            [customer_ip_address] => 149.167.150.26
+            [customer_user_agent] => Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36
+            [created_via] => checkout
+            [customer_note] => 
+            [date_completed] => 2022-09-02T12:34:07
+            [date_paid] => 2022-09-01T14:18:54
+            [cart_hash] => f857303f77472610701540609e7e523b
+            [number] => AU70934
+            [meta_data] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 10478853
+                            [key] => mailchimp_woocommerce_campaign_id
+                            [value] => 
+                        )
+
+                    [1] => Array
+                        (
+                            [id] => 10478854
+                            [key] => mailchimp_woocommerce_landing_site
+                            [value] => https://onesixeightlondon.com.au/checkout/
+                        )
+
+                    [2] => Array
+                        (
+                            [id] => 10478891
+                            [key] => _billing_method
+                            [value] => Array
+                                (
+                                    [0] => free_shipping:3
+                                )
+
+                        )
+
+                    [3] => Array
+                        (
+                            [id] => 10478892
+                            [key] => is_vat_exempt
+                            [value] => no
+                        )
+
+                    [4] => Array
+                        (
+                            [id] => 10478893
+                            [key] => _order_number
+                            [value] => AU70934
+                        )
+
+                    [5] => Array
+                        (
+                            [id] => 10478894
+                            [key] => _wc_twilio_sms_optin
+                            [value] => 1
+                        )
+
+                    [6] => Array
+                        (
+                            [id] => 10478895
+                            [key] => _stripe_customer_id
+                            [value] => cus_MLmQY70F4JfqwN
+                        )
+
+                    [7] => Array
+                        (
+                            [id] => 10478896
+                            [key] => _stripe_source_id
+                            [value] => src_1Ld4rbFpaINbucudbgKhcBRz
+                        )
+
+                    [8] => Array
+                        (
+                            [id] => 10478897
+                            [key] => _stripe_intent_id
+                            [value] => pi_3Ld4rfFpaINbucud02B5TceY
+                        )
+
+                    [9] => Array
+                        (
+                            [id] => 10478898
+                            [key] => _stripe_charge_captured
+                            [value] => yes
+                        )
+
+                    [10] => Array
+                        (
+                            [id] => 10478899
+                            [key] => _stripe_fee
+                            [value] => 3.08
+                        )
+
+                    [11] => Array
+                        (
+                            [id] => 10478900
+                            [key] => _stripe_net
+                            [value] => 155.92
+                        )
+
+                    [12] => Array
+                        (
+                            [id] => 10478901
+                            [key] => _stripe_currency
+                            [value] => AUD
+                        )
+
+                    [13] => Array
+                        (
+                            [id] => 10478909
+                            [key] => _new_order_email_sent
+                            [value] => true
+                        )
+
+                    [14] => Array
+                        (
+                            [id] => 10478910
+                            [key] => _wcpdf_invoice_settings
+                            [value] => Array
+                                (
+                                    [display_shipping_address] => 1
+                                    [use_latest_settings] => 1
+                                    [header_logo] => 1078670
+                                    [header_logo_height] => 
+                                    [shop_name] => Array
+                                        (
+                                            [default] => One Six Eight London
+                                        )
+
+                                    [shop_address] => Array
+                                        (
+                                            [default] => 78 Herald St
+Cheltenham VIC 3192
+
+ABN: 21 981 580 346
+
+info@onesixeightlondon.com.au
+                                        )
+
+                                    [footer] => Array
+                                        (
+                                            [default] => Thanks for your order. For issues with shipping, delivery or warranty, please reply to your original order confirmation email for quickest reosolution.
+                                        )
+
+                                    [extra_1] => Array
+                                        (
+                                            [default] => 
+                                        )
+
+                                    [extra_2] => Array
+                                        (
+                                            [default] => 
+                                        )
+
+                                    [extra_3] => Array
+                                        (
+                                            [default] => 
+                                        )
+
+                                )
+
+                        )
+
+                    [15] => Array
+                        (
+                            [id] => 10478911
+                            [key] => _wcpdf_invoice_date
+                            [value] => 1662005936
+                        )
+
+                    [16] => Array
+                        (
+                            [id] => 10478912
+                            [key] => _wcpdf_invoice_date_formatted
+                            [value] => 2022-09-01 14:18:56
+                        )
+
+                    [17] => Array
+                        (
+                            [id] => 10478913
+                            [key] => _wcpdf_invoice_number
+                            [value] => 1271
+                        )
+
+                    [18] => Array
+                        (
+                            [id] => 10478914
+                            [key] => _wcpdf_invoice_number_data
+                            [value] => Array
+                                (
+                                    [number] => 1271
+                                    [formatted_number] => 1271
+                                    [prefix] => 
+                                    [suffix] => 
+                                    [document_type] => invoice
+                                    [order_id] => 1124255
+                                    [padding] => 
+                                )
+
+                        )
+
+                    [19] => Array
+                        (
+                            [id] => 10478919
+                            [key] => _ga_tracked
+                            [value] => 1
+                        )
+
+                )
+
+            [line_items] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 2414
+                            [name] => TINA Mirror - Black, 80cm
+                            [product_id] => 892308
+                            [variation_id] => 1091200
+                            [quantity] => 1
+                            [tax_class] => 
+                            [subtotal] => 144.55
+                            [subtotal_tax] => 14.45
+                            [total] => 144.55
+                            [total_tax] => 14.45
+                            [taxes] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [id] => 1
+                                            [total] => 14.454545
+                                            [subtotal] => 14.454545
+                                        )
+
+                                )
+
+                            [meta_data] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [id] => 20880
+                                            [key] => pa_neto_var_colour
+                                            [value] => black
+                                            [display_key] => colour
+                                            [display_value] => Black
+                                        )
+
+                                    [1] => Array
+                                        (
+                                            [id] => 20881
+                                            [key] => pa_neto_var_size
+                                            [value] => 80cm
+                                            [display_key] => size
+                                            [display_value] => 80cm
+                                        )
+
+                                    [2] => Array
+                                        (
+                                            [id] => 20894
+                                            [key] => _reduced_stock
+                                            [value] => 1
+                                            [display_key] => _reduced_stock
+                                            [display_value] => 1
+                                        )
+
+                                )
+
+                            [sku] => 61007-v
+                            [price] => 144.545455
+                            [parent_name] => TINA Mirror
+                        )
+
+                )
+
+            [tax_lines] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 2416
+                            [rate_code] => AU-GST-1
+                            [rate_id] => 1
+                            [label] => GST
+                            [compound] => 
+                            [tax_total] => 14.45
+                            [shipping_tax_total] => 0.00
+                            [rate_percent] => 10
+                            [meta_data] => Array
+                                (
+                                )
+
+                        )
+
+                )
+
+            [shipping_lines] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 2415
+                            [method_title] => Free express shipping
+                            [method_id] => free_shipping
+                            [instance_id] => 3
+                            [total] => 0.00
+                            [total_tax] => 0.00
+                            [taxes] => Array
+                                (
+                                )
+
+                            [meta_data] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [id] => 20887
+                                            [key] => Items
+                                            [value] => TINA Mirror - Black, 80cm &times; 1
+                                            [display_key] => Items
+                                            [display_value] => TINA Mirror - Black, 80cm &times; 1
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+            [fee_lines] => Array
+                (
+                )
+
+            [coupon_lines] => Array
+                (
+                )
+
+            [refunds] => Array
+                (
+                )
+
+            [payment_url] => https://onesixeightlondon.com.au/checkout/order-pay/1124255/?pay_for_order=true&key=wc_order_oqwwMA7ruOqFq
+            [date_created_gmt] => 2022-09-01T04:18:50
+            [date_modified_gmt] => 2022-09-02T02:34:07
+            [date_completed_gmt] => 2022-09-02T02:34:07
+            [date_paid_gmt] => 2022-09-01T04:18:54
+            [currency_symbol] => $
+            [_links] => Array
+                (
+                    [self] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [href] => https://onesixeightlondon.com.au/wp-json/wc/v3/orders/1124255
+                                )
+
+                        )
+
+                    [collection] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [href] => https://onesixeightlondon.com.au/wp-json/wc/v3/orders
+                                )
+
+                        )
+
+                    [customer] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [href] => https://onesixeightlondon.com.au/wp-json/wc/v3/customers/144
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
